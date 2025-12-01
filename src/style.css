@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-void text-off-white;
+    font-family: 'Inter', 'Consolas', 'Monaco', monospace;
+  }
+}
+
+@layer components {
+  .glow-pulse {
+    @apply animate-pulse-glow;
+  }
+  
+  .terminal-font {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  }
+}
