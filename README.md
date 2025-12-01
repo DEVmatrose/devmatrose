@@ -2,7 +2,7 @@
 
 > Ich schreibe nicht nur Code, ich erschaffe Ökosysteme.
 
-# [DEVmatrose bei GitHub](https://github.com/DEVmatrose](https://github.com/DEVmatrose)
+# [DEVmatrose bei GitHub](https://github.com/DEVmatrose)
 
 Website für **DEVmatrose** - Senior Developer & Software-Architekt für digitale Ökosysteme.
 ## [DEVmatrose Webseite](https://github.com/DEVmatrose)
