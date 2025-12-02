@@ -112,11 +112,10 @@ const navigateToBlog = () => {
 }
 
 const navigateToPost = (post) => {
-  // Zum Blog-Tab wechseln und Artikel öffnen
+  // Direkt zum Artikel öffnen über Event
+  window.dispatchEvent(new CustomEvent('open-blog-post', { detail: post }))
+  // Dann zum Blog-Tab wechseln
   window.dispatchEvent(new CustomEvent('change-tab', { detail: 'blog' }))
-  setTimeout(() => {
-    window.dispatchEvent(new CustomEvent('open-blog-post', { detail: post }))
-  }, 100)
 }
 </script>
 
