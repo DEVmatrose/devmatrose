@@ -77,15 +77,9 @@ const getImageUrl = (path) => {
 }
 
 const getArticleUrl = () => {
-  // Map von slug zu HTML-Dateinamen
-  const htmlPages = {
-    'vom-code-zum-architekten': 'blog-vom-code-zum-architekten.html'
-  }
-  
-  const htmlFile = htmlPages[props.post.slug]
-  if (htmlFile) {
-    // Absolute URL für GitHub Pages
-    return `https://ogerly.github.io/devmatrose/${htmlFile}`
+  // Direkt zur Vue-App mit URL-Parameter
+  if (props.post.slug) {
+    return `#blog?article=${props.post.slug}`
   }
   return '#blog'
 }
