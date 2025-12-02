@@ -89,4 +89,4 @@ const articles = {
   'vom-code-zum-architekten': ArtikelVomCodeZumArchitekten,
   'neuer-artikel-slug': NeuerArtikel,  // NEU
 }
-```
+``` 
