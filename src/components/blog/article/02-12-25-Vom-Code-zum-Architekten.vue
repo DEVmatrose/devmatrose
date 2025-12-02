@@ -320,6 +320,7 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useHead } from '@unhead/vue'
 
 const tags = ref([
   'KI-Entwicklung',
@@ -343,34 +344,29 @@ const navigateToContact = () => {
 }
 
 // Meta-Tags für Social Media
-import { useHead } from '@unhead/vue'
-import { onMounted } from 'vue'
-
-onMounted(() => {
-  useHead({
-    title: 'Vom Coder zum Architekten: Warum KI meine Arbeit nicht ersetzt, sondern erweitert | DEVmatrose',
-    meta: [
-      { name: 'description', content: 'Seit 1999 Entwickler, seit 2024 KI-Architekt. Wie mich die Arbeit mit Claude, GPT und Co. vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.' },
-      
-      // Open Graph
-      { property: 'og:type', content: 'article' },
-      { property: 'og:title', content: 'Vom Coder zum Architekten: Warum KI meine Arbeit erweitert' },
-      { property: 'og:description', content: 'Von 25 Jahren Entwicklung bis zur KI-gestützten Architektur: Wie Whitepaper, Workpaper und KI-Agenten meine Arbeitsweise revolutioniert haben.' },
-      { property: 'og:image', content: 'https://ogerly.github.io/devmatrose/images/blog/architekten-preview.png' },
-      { property: 'og:image:width', content: '1200' },
-      { property: 'og:image:height', content: '630' },
-      { property: 'og:url', content: 'https://ogerly.github.io/devmatrose/#blog' },
-      { property: 'article:published_time', content: '2025-12-02' },
-      { property: 'article:author', content: 'DEVmatrose' },
-      { property: 'article:section', content: 'KI & Architektur' },
-      
-      // Twitter Card
-      { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: 'Vom Coder zum Architekten: Meine Reise mit KI' },
-      { name: 'twitter:description', content: 'Wie KI mich vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.' },
-      { name: 'twitter:image', content: 'https://ogerly.github.io/devmatrose/images/blog/architekten-preview.png' },
-    ]
-  })
+useHead({
+  title: 'Vom Coder zum Architekten: Warum KI meine Arbeit nicht ersetzt, sondern erweitert | DEVmatrose',
+  meta: [
+    { name: 'description', content: 'Seit 1999 Entwickler, seit 2024 KI-Architekt. Wie mich die Arbeit mit Claude, GPT und Co. vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.' },
+    
+    // Open Graph
+    { property: 'og:type', content: 'article' },
+    { property: 'og:title', content: 'Vom Coder zum Architekten: Warum KI meine Arbeit erweitert' },
+    { property: 'og:description', content: 'Von 25 Jahren Entwicklung bis zur KI-gestützten Architektur: Wie Whitepaper, Workpaper und KI-Agenten meine Arbeitsweise revolutioniert haben.' },
+    { property: 'og:image', content: 'https://ogerly.github.io/devmatrose/images/blog/architekten-preview.png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' },
+    { property: 'og:url', content: 'https://ogerly.github.io/devmatrose/#blog' },
+    { property: 'article:published_time', content: '2025-12-02' },
+    { property: 'article:author', content: 'DEVmatrose' },
+    { property: 'article:section', content: 'KI & Architektur' },
+    
+    // Twitter Card
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: 'Vom Coder zum Architekten: Meine Reise mit KI' },
+    { name: 'twitter:description', content: 'Wie KI mich vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.' },
+    { name: 'twitter:image', content: 'https://ogerly.github.io/devmatrose/images/blog/architekten-preview.png' },
+  ]
 })
 </script>
 
