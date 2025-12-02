@@ -89,12 +89,15 @@
 import BlogList from './blog/BlogList.vue'
 
 const navigateToBlog = () => {
-  window.location.hash = '#blog'
+  window.dispatchEvent(new CustomEvent('change-tab', { detail: 'blog' }))
 }
 
 const navigateToPost = (post) => {
-  // Später: Detail-Ansicht
-  console.log('Navigate to post:', post.slug)
+  // Zum Blog-Tab wechseln und Artikel öffnen
+  window.dispatchEvent(new CustomEvent('change-tab', { detail: 'blog' }))
+  setTimeout(() => {
+    window.dispatchEvent(new CustomEvent('open-blog-post', { detail: post }))
+  }, 100)
 }
 </script>
 

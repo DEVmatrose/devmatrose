@@ -96,8 +96,10 @@ const loadPosts = async () => {
 
 const handleReadMore = (post) => {
   emit('read-more', post)
-  // Später: Navigation zu Blog-Post-Detail
-  // window.location.hash = `#blog/${post.slug}`
+  // Navigation zum Detail-Artikel
+  if (post.component) {
+    window.dispatchEvent(new CustomEvent('open-blog-post', { detail: post }))
+  }
 }
 
 onMounted(() => {

@@ -62,7 +62,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import SpiderwebCanvas from './components/SpiderwebCanvas.vue'
 import HomeTab from './components/HomeTab.vue'
 import WorkTab from './components/WorkTab.vue'
@@ -81,6 +81,28 @@ const currentComponent = computed(() => {
     contact: ContactTab
   }
   return components[activeTab.value]
+})
+
+// Listen for custom navigate events
+const handleChangeTab = (event) => {
+  activeTab.value = event.detail
+}
+
+const handleNavigate = (event) => {
+  const target = event.detail
+  if (['home', 'work', 'blog', 'references', 'contact'].includes(target)) {
+    activeTab.value = target
+  }
+}
+
+onMounted(() => {
+  window.addEventListener('change-tab', handleChangeTab)
+  window.addEventListener('navigate', handleNavigate)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('change-tab', handleChangeTab)
+  window.removeEventListener('navigate', handleNavigate)
 })
 </script>
 
