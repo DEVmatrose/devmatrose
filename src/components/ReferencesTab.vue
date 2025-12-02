@@ -79,7 +79,8 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const response = await fetch('/data/references.json')
+    const baseUrl = import.meta.env.BASE_URL
+    const response = await fetch(`${baseUrl}data/references.json`)
     const data = await response.json()
     references.value = data.references
   } catch (error) {

@@ -47,12 +47,12 @@
         <span class="text-xs text-off-white/60 terminal-font">
           {{ formatDate(post.date) }}
         </span>
-        <button 
-          @click="$emit('read-more', post)"
+        <a 
+          :href="getArticleUrl()"
           class="btn btn-sm btn-primary terminal-font"
         >
           Weiterlesen →
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -74,6 +74,17 @@ const getImageUrl = (path) => {
   if (!path) return ''
   const basePath = import.meta.env.BASE_URL
   return path.startsWith('/') ? `${basePath}${path.slice(1)}` : path
+}
+
+const getArticleUrl = () => {
+  const basePath = import.meta.env.BASE_URL
+  // Map von slug zu HTML-Dateinamen
+  const htmlPages = {
+    'vom-code-zum-architekten': 'blog-vom-code-zum-architekten.html'
+  }
+  
+  const htmlFile = htmlPages[props.post.slug]
+  return htmlFile ? `${basePath}${htmlFile}` : '#blog'
 }
 
 const formatDate = (dateString) => {
