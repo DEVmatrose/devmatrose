@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "smart-editor-llm-tool",
+      "title": "Warum ich das Rad neu erfunden habe: Die Entstehung eines spezialisierten LLM-Tools",
+      "slug": "smart-editor-llm-tool",
+      "date": "2025-12-03",
+      "author": "DEVmatrose",
+      "excerpt": "Wenn Standard-Software an sensibler Daten scheitert: Die Entstehung eines spezialisierten On-Premise LLM-Tools mit Tab-Architektur und Smart Editor für Fachexperten.",
+      "category": "KI & Tooling",
+      "tags": ["KI-Tooling", "Data Labeling", "On-Premise", "UX Design", "Smart Editor", "LLM-Training"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/aleteiha-layer.png",
+      "imageAlt": "Smart Editor Interface für KI-Daten-Labeling",
+      "metaDescription": "Warum ich ein eigenes KI-Tooling gebaut habe: Tab-Architektur, Smart Editor und On-Premise-First für sensible Daten.",
+      "component": "03-12-25-Smart-Editor-LLM-Tool",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Smart Editor für LLM-Training: Eigenentwicklung statt Standard-Tools",
+          "hashtags": ["AI", "MachineLearning", "DataLabeling", "OnPremise", "UXDesign"]
+        },
+        "twitter": {
+          "title": "🧵 Warum ich für KI-Training ein eigenes Tool gebaut habe",
+          "hashtags": ["AI", "LLM", "BuildInPublic", "OnPremise"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Smart Editor für sensible KI-Daten 🔒",
+          "hashtags": ["ai", "machinelearning", "dataprotection", "developer"]
+        }
+      }
+    },
+    {
       "id": "vom-code-zum-architekten",
       "title": "Vom Coder zum Architekten: Warum KI meine Arbeit nicht ersetzt, sondern erweitert",
       "slug": "vom-code-zum-architekten",

@@ -82,7 +82,9 @@ const displayPosts = computed(() => {
 const loadPosts = async () => {
   try {
     const basePath = import.meta.env.BASE_URL
-    const response = await fetch(`${basePath}data/blog-metadata.json`)
+    // Cache-Buster hinzufügen um Browser-Cache zu umgehen
+    const cacheBuster = `?v=${Date.now()}`
+    const response = await fetch(`${basePath}data/blog-metadata.json${cacheBuster}`)
     const data = await response.json()
     // Sortiere nach Datum (neueste zuerst)
     allPosts.value = data.posts.sort((a, b) => 

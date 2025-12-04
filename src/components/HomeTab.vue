@@ -114,7 +114,7 @@
     <section class="container mx-auto px-4 py-8 bg-void max-w-6xl">
       <div class="text-center mb-6">
         <h2 class="text-2xl md:text-3xl font-bold terminal-font text-copper-orange mb-2">
-          <span class="glow-pulse">&gt; Latest_Blog_Post_</span>
+          <span class="glow-pulse">&gt; Latest_Blog_Posts_</span>
         </h2>
         <p class="text-base text-off-white/70">
           Deep Dives, Architektur-Entscheidungen und Best Practices
@@ -122,7 +122,7 @@
       </div>
       
       <BlogList 
-        :limit="1"
+        :limit="3"
         :show-header="false"
         @show-all="navigateToBlog"
         @read-more="navigateToPost"

@@ -25,18 +25,28 @@
         <!-- Meta Info & Share -->
         <div class="flex flex-wrap gap-4 items-center justify-between mb-6 text-sm">
           <div class="flex flex-wrap gap-4 items-center">
-            <span v-if="post.featured" class="badge badge-accent glow-pulse">Featured</span>
-            <span class="text-cyber-cyan">{{ post.category }}</span>
+            <span class="badge badge-accent glow-pulse">Featured</span>
+            <span class="text-cyber-cyan">KI & Architektur</span>
             <span class="text-off-white/40">•</span>
-            <span class="text-off-white/60">{{ formatDate(post.date) }}</span>
+            <span class="text-off-white/60">02. Dezember 2025</span>
             <span class="text-off-white/40">•</span>
-            <span class="text-off-white/60">{{ post.readTime }} Lesezeit</span>
+            <span class="text-off-white/60">10 min Lesezeit</span>
           </div>
-        </div>
-        
-        <!-- Share Buttons -->
-        <div class="mb-8">
-          <ShareButtons :post="post" :url="shareUrl" />
+          
+          <!-- Share Link -->
+          <button 
+            @click="copyArticleLink" 
+            class="btn btn-xs btn-outline border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan hover:text-void"
+            :class="{ 'btn-success': linkCopied }"
+          >
+            <svg v-if="!linkCopied" class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+            </svg>
+            <svg v-else class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            {{ linkCopied ? 'Link kopiert!' : 'Link teilen' }}
+          </button>
         </div>
 
         <!-- Title -->
@@ -326,55 +336,36 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed } from 'vue'
 import { useHead } from '@unhead/vue'
-import ShareButtons from '../ShareButtons.vue'
 
-// Post metadata (aus blog-metadata.json)
-const post = ref({
-  id: 'vom-code-zum-architekten',
-  title: 'Vom Coder zum Architekten: Warum KI meine Arbeit nicht ersetzt, sondern erweitert',
-  slug: 'vom-code-zum-architekten',
-  date: '2025-12-02',
-  author: 'DEVmatrose',
-  excerpt: 'Seit 1999 Entwickler, seit 2024 KI-Architekt. Wie mich die Arbeit mit Claude, GPT und Co. vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.',
-  category: 'KI & Architektur',
-  tags: ['KI-Entwicklung', 'Software-Architektur', 'Vibe Coding', 'Claude AI', 'Best Practices', 'Whitepaper'],
-  readTime: '10 min',
-  featured: true,
-  image: '/images/blog/architekten-preview.png',
-  metaDescription: 'Von 25 Jahren Entwicklung bis zur KI-gestützten Architektur: Wie Whitepaper, Workpaper und KI-Agenten meine Arbeitsweise revolutioniert haben.',
-  socialMedia: {
-    linkedin: {
-      title: 'Vom Coder zum Architekten: Meine Reise mit KI in der Softwareentwicklung',
-      hashtags: ['SoftwareArchitecture', 'AI', 'ClaudeAI', 'SoftwareDevelopment']
-    },
-    twitter: {
-      title: '🧵 Wie KI mich vom Coder zum Architekten gemacht hat',
-      hashtags: ['AI', 'SoftwareArchitecture', 'BuildInPublic']
-    }
-  }
-})
+const tags = ref([
+  'KI-Entwicklung',
+  'Software-Architektur',
+  'Vibe Coding',
+  'Claude AI',
+  'Best Practices',
+  'Whitepaper'
+])
 
 const basePath = import.meta.env.BASE_URL
 const heroImage = computed(() => `${basePath}images/blog/architekten-hero.png`)
 const previewImage = computed(() => `${basePath}images/blog/architekten-preview.png`)
 
-// Shareable URL (statische HTML-Seite für Social Media)
-const shareUrl = computed(() => 
-  `${window.location.origin}${basePath}blog-vom-code-zum-architekten.html`
-)
-
 const linkCopied = ref(false)
 
-// Helper: Format date
-const formatDate = (dateString) => {
-  const date = new Date(dateString)
-  return date.toLocaleDateString('de-DE', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  })
+const copyArticleLink = async () => {
+  // Use static HTML page for better social media previews
+  const articleUrl = `${window.location.origin}${basePath}blog-vom-code-zum-architekten.html`
+  try {
+    await navigator.clipboard.writeText(articleUrl)
+    linkCopied.value = true
+    setTimeout(() => {
+      linkCopied.value = false
+    }, 3000)
+  } catch (err) {
+    console.error('Failed to copy link:', err)
+  }
 }
 
 const navigateToHome = () => {

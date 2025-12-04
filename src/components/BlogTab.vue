@@ -21,11 +21,13 @@ import BlogList from './blog/BlogList.vue'
 
 // Import article components
 import VomCodeZumArchitekten from './blog/article/02-12-25-Vom-Code-zum-Architekten.vue'
+import SmartEditorLlmTool from './blog/article/03-12-25-Smart-Editor-LLM-Tool.vue'
 
 const selectedPost = ref(null)
 
 const articleComponents = {
-  '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten
+  '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten,
+  '03-12-25-Smart-Editor-LLM-Tool': SmartEditorLlmTool
 }
 
 const articleComponent = computed(() => {
@@ -65,6 +67,12 @@ const checkUrlForArticle = () => {
     selectedPost.value = {
       component: '02-12-25-Vom-Code-zum-Architekten',
       title: 'Vom Coder zum Architekten'
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  } else if (articleSlug === 'smart-editor-llm-tool') {
+    selectedPost.value = {
+      component: '03-12-25-Smart-Editor-LLM-Tool',
+      title: 'Warum ich das Rad neu erfunden habe'
     }
     window.scrollTo({ top: 0, behavior: 'smooth' })
   } else if (!articleSlug && hash.startsWith('#blog')) {
