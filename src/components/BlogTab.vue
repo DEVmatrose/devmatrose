@@ -22,12 +22,14 @@ import BlogList from './blog/BlogList.vue'
 // Import article components
 import VomCodeZumArchitekten from './blog/article/02-12-25-Vom-Code-zum-Architekten.vue'
 import SmartEditorLlmTool from './blog/article/03-12-25-Smart-Editor-LLM-Tool.vue'
+import PenAndPaperRollenspiele from './blog/article/04-12-25-Pen-And-Paper-Rollenspiele.vue'
 
 const selectedPost = ref(null)
 
 const articleComponents = {
   '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten,
-  '03-12-25-Smart-Editor-LLM-Tool': SmartEditorLlmTool
+  '03-12-25-Smart-Editor-LLM-Tool': SmartEditorLlmTool,
+  '04-12-25-Pen-And-Paper-Rollenspiele': PenAndPaperRollenspiele
 }
 
 const articleComponent = computed(() => {
@@ -73,6 +75,12 @@ const checkUrlForArticle = () => {
     selectedPost.value = {
       component: '03-12-25-Smart-Editor-LLM-Tool',
       title: 'Warum ich das Rad neu erfunden habe'
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  } else if (articleSlug === 'pen-and-paper-rollenspiele') {
+    selectedPost.value = {
+      component: '04-12-25-Pen-And-Paper-Rollenspiele',
+      title: 'Der Algorithmus der Fantasie'
     }
     window.scrollTo({ top: 0, behavior: 'smooth' })
   } else if (!articleSlug && hash.startsWith('#blog')) {

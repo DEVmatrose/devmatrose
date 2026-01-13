@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "pen-and-paper-rollenspiele",
+      "title": "Der Algorithmus der Fantasie: Warum digitale Welten das Rollenspiel noch nicht gerettet haben",
+      "slug": "pen-and-paper-rollenspiele",
+      "date": "2026-01-10",
+      "author": "DEVmatrose",
+      "excerpt": "Als Software-Entwickler und Pen & Paper Enthusiast analysiere ich die Lücke zwischen analoger Freiheit und digitaler Perfektion – und warum beide Welten noch nicht zusammengefunden haben.",
+      "category": "Game Design & Entwicklung",
+      "tags": ["Pen & Paper", "Rollenspiel", "Game Design", "TTRPG", "Digitalisierung", "Software-Entwicklung"],
+      "readTime": "8 min",
+      "featured": true,
+      "image": "/images/blog/rollenspiel-preview.png",
+      "imageAlt": "Pen & Paper Würfel treffen auf digitalen Code",
+      "metaDescription": "Zwischen analoger Freiheit und digitaler Perfektion: Eine Analyse, warum weder Pen & Paper noch Computerspiele das perfekte Rollenspiel-Erlebnis bieten.",
+      "component": "04-12-25-Pen-And-Paper-Rollenspiele",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Der Algorithmus der Fantasie: Pen & Paper vs. Digital RPGs",
+          "hashtags": ["GameDesign", "TTRPG", "SoftwareDevelopment", "PenAndPaper", "RPG"]
+        },
+        "twitter": {
+          "title": "🎲 Warum weder Pen & Paper noch CRPGs das perfekte Rollenspiel sind",
+          "hashtags": ["TTRPG", "GameDesign", "PenAndPaper", "RPG"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Der Algorithmus der Fantasie 🎲",
+          "hashtags": ["ttrpg", "penandpaper", "gamedesign", "rollenspiel", "developer"]
+        }
+      }
+    },
+    {
       "id": "smart-editor-llm-tool",
       "title": "Warum ich das Rad neu erfunden habe: Die Entstehung eines spezialisierten LLM-Tools",
       "slug": "smart-editor-llm-tool",
