@@ -6,7 +6,7 @@
         <div class="max-w-6xl w-full">
         <!-- Logo / Title -->
         <div class="mb-6">
-          <img src="/src/assets/logo-plastisch.png" alt="DEVmatrose Logo" class="h-24 w-24 mx-auto mb-4 glow-pulse" />
+          <img src="/logo-plastisch.png" alt="DEVmatrose Logo" class="h-24 w-24 mx-auto mb-4 glow-pulse" />
           <h1 class="text-5xl md:text-7xl font-bold terminal-font">
             <span class="text-copper-orange glow-pulse">DEV</span><span class="text-cyber-cyan">matrose</span>
           </h1>

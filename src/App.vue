@@ -9,7 +9,7 @@
       <nav class="navbar bg-base-100/80 backdrop-blur-sm border-b border-copper-orange/20 fixed top-0 w-full z-50">
         <div class="navbar-start">
           <router-link to="/" class="btn btn-ghost normal-case text-xl terminal-font cursor-pointer">
-            <img src="/src/assets/logo-plastisch.png" alt="DEVmatrose Logo" class="h-10 w-10 mr-2" />
+            <img src="/logo-plastisch.png" alt="DEVmatrose Logo" class="h-10 w-10 mr-2" />
             <span class="text-copper-orange glow-pulse">DEV</span><span class="text-cyber-cyan">matrose</span>
           </router-link>
         </div>
@@ -53,7 +53,7 @@
       <!-- Footer -->
       <footer class="footer footer-center p-16 bg-base-200/80 backdrop-blur-sm border-t border-copper-orange/20 mt-20">
         <div class="max-w-6xl w-full">
-          <img src="/src/assets/devmatrose-banner.png" alt="DEVmatrose" class="w-full h-auto mb-8 glow-pulse" />
+          <img src="/devmatrose-banner.png" alt="DEVmatrose" class="w-full h-auto mb-8 glow-pulse" />
           <p class="text-off-white/60 terminal-font text-lg">
             <span class="text-copper-orange">DEV</span><span class="text-cyber-cyan">matrose</span> © 2025 - Die Architekturschmiede
           </p>

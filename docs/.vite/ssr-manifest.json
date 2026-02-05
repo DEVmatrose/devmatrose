@@ -1,208 +1,109 @@
 {
-  "\u0000plugin-vue:export-helper": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "\u0000vite/modulepreload-polyfill.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "\u0000vite/preload-helper.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "index.html": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@unhead/vue/dist/client.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@unhead/vue/dist/shared/vue.Bm-NbY4b.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@unhead/vue/dist/shared/vue.N9zWjxoK.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/hookable/dist/index.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/client.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.CApf5sj3.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.CGCfDSEL.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.CYpwL2hc.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.CbpEuj3y.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.DQc16pHI.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/vite-ssg/dist/index.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/vue-router/dist/devtools-EWN81iOl.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "node_modules/vue-router/dist/vue-router.mjs": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/App.vue": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/App.vue?vue&type=style&index=0&scoped=f209d437&lang.css": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/assets/devmatrose-banner.png": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/assets/logo-plastisch.png": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
+  "\u0000plugin-vue:export-helper": [],
+  "\u0000vite/modulepreload-polyfill.js": [],
+  "\u0000vite/preload-helper.js": [],
+  "../../../devmatrose-banner.png": [],
+  "../../../logo-plastisch.png": [],
+  "index.html": [],
+  "node_modules/@unhead/vue/dist/client.mjs": [],
+  "node_modules/@unhead/vue/dist/shared/vue.Bm-NbY4b.mjs": [],
+  "node_modules/@unhead/vue/dist/shared/vue.N9zWjxoK.mjs": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/hookable/dist/index.mjs": [],
+  "node_modules/unhead/dist/client.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.CApf5sj3.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.CGCfDSEL.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.CYpwL2hc.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.CbpEuj3y.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.DQc16pHI.mjs": [],
+  "node_modules/unhead/dist/shared/unhead.yem5I2v_.mjs": [],
+  "node_modules/vite-ssg/dist/index.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.C6pK7rvr.mjs": [],
+  "node_modules/vite-ssg/dist/shared/vite-ssg.ETIvV-80.mjs": [],
+  "node_modules/vue-router/dist/devtools-EWN81iOl.mjs": [],
+  "node_modules/vue-router/dist/vue-router.mjs": [],
+  "src/App.vue": [],
+  "src/App.vue?vue&type=style&index=0&scoped=cb3d091c&lang.css": [],
   "src/components/BlogArticle.vue": [
-    "/devmatrose/assets/BlogArticle-c3uEMSwk.js"
+    "/devmatrose/assets/BlogArticle-CqiUgfNR.js"
   ],
   "src/components/BlogTab.vue": [
-    "/devmatrose/assets/BlogTab-5BYhrZeb.js"
+    "/devmatrose/assets/BlogTab-cndBiRCI.js"
   ],
   "src/components/ContactTab.vue": [
-    "/devmatrose/assets/ContactTab-DH6QA7Zx.js"
+    "/devmatrose/assets/ContactTab-CqIvElFb.js"
   ],
   "src/components/HomeTab.vue": [
-    "/devmatrose/assets/HomeTab-6MWvWCkx.js",
-    "/devmatrose/assets/HomeTab-B7rgP6R2.css"
+    "/devmatrose/assets/HomeTab-Cv18dDWm.js",
+    "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
-  "src/components/HomeTab.vue?vue&type=style&index=0&scoped=fc1555ee&lang.css": [
-    "/devmatrose/assets/HomeTab-6MWvWCkx.js",
-    "/devmatrose/assets/HomeTab-B7rgP6R2.css"
+  "src/components/HomeTab.vue?vue&type=style&index=0&scoped=e76631c6&lang.css": [
+    "/devmatrose/assets/HomeTab-Cv18dDWm.js",
+    "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
   "src/components/ReferencesTab.vue": [
-    "/devmatrose/assets/ReferencesTab-MfJSVz4G.js"
+    "/devmatrose/assets/ReferencesTab-DozScT89.js"
   ],
-  "src/components/SpiderwebCanvas.vue": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/components/SpiderwebCanvas.vue?vue&type=style&index=0&scoped=a1793770&lang.css": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
+  "src/components/SpiderwebCanvas.vue": [],
+  "src/components/SpiderwebCanvas.vue?vue&type=style&index=0&scoped=a1793770&lang.css": [],
   "src/components/WorkTab.vue": [
-    "/devmatrose/assets/WorkTab-Dg-mXiJP.js"
+    "/devmatrose/assets/WorkTab-CgkG_X-e.js"
   ],
   "src/components/blog/BlogCard.vue": [
-    "/devmatrose/assets/BlogList-DrNvU9Fq.js",
+    "/devmatrose/assets/BlogList-BGI7WWh7.js",
     "/devmatrose/assets/BlogList-pKpfdPvg.css"
   ],
   "src/components/blog/BlogCard.vue?vue&type=style&index=0&scoped=9c0b4365&lang.css": [
-    "/devmatrose/assets/BlogList-DrNvU9Fq.js",
+    "/devmatrose/assets/BlogList-BGI7WWh7.js",
     "/devmatrose/assets/BlogList-pKpfdPvg.css"
   ],
   "src/components/blog/BlogList.vue": [
-    "/devmatrose/assets/BlogList-DrNvU9Fq.js",
+    "/devmatrose/assets/BlogList-BGI7WWh7.js",
     "/devmatrose/assets/BlogList-pKpfdPvg.css"
   ],
   "src/components/blog/BlogList.vue?vue&type=style&index=0&scoped=973e8405&lang.css": [
-    "/devmatrose/assets/BlogList-DrNvU9Fq.js",
+    "/devmatrose/assets/BlogList-BGI7WWh7.js",
     "/devmatrose/assets/BlogList-pKpfdPvg.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BhwIijyZ.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BEc1i8sk.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue?vue&type=style&index=0&scoped=6cf612f9&lang.css": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BhwIijyZ.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BEc1i8sk.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-BBCxCevP.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-WssoPvYz.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue?vue&type=style&index=0&scoped=360d27e1&lang.css": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-BBCxCevP.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-WssoPvYz.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-CNn_ZHxf.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C8kc_rpB.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-BBa4iNq6.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue?vue&type=style&index=0&scoped=ddf1ce6d&lang.css": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-CNn_ZHxf.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C8kc_rpB.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-BBa4iNq6.css"
   ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-DBP32MR5.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-K3s1vhex.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue?vue&type=style&index=0&scoped=3fbb1637&lang.css": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-DBP32MR5.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-K3s1vhex.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/composables/useSEO.js": [
-    "/devmatrose/assets/BlogArticle-c3uEMSwk.js"
+    "/devmatrose/assets/BlogArticle-CqiUgfNR.js"
   ],
-  "src/main.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/router/routes.js": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ],
-  "src/style.css": [
-    "/devmatrose/assets/logo-plastisch-x-vHHqTR.png",
-    "/devmatrose/assets/devmatrose-banner-HmkNeek-.png"
-  ]
+  "src/main.js": [],
+  "src/router/routes.js": [],
+  "src/style.css": []
 }
