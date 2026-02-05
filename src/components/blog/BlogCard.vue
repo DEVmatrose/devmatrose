@@ -47,12 +47,12 @@
         <span class="text-xs text-off-white/60 terminal-font">
           {{ formatDate(post.date) }}
         </span>
-        <a 
-          :href="getArticleUrl()"
+        <router-link 
+          :to="`/blog/${post.slug}`"
           class="btn btn-sm btn-primary terminal-font"
         >
           Weiterlesen →
-        </a>
+        </router-link>
       </div>
     </div>
   </div>
@@ -74,27 +74,6 @@ const getImageUrl = (path) => {
   if (!path) return ''
   const basePath = import.meta.env.BASE_URL
   return path.startsWith('/') ? `${basePath}${path.slice(1)}` : path
-}
-
-const getArticleUrl = () => {
-  // Slug-zu-HTML-Mapping für statische Seiten (Hybrid-Ansatz für SEO)
-  const htmlPages = {
-    'vom-code-zum-architekten': 'blog-vom-code-zum-architekten.html',
-    'smart-editor-llm-tool': 'blog-smart-editor-llm-tool.html',
-    'pen-and-paper-rollenspiele': 'blog-pen-and-paper-rollenspiele.html',
-    'keine-angst-vor-ki': 'blog-keine-angst-vor-ki.html'
-  }
-  
-  const basePath = import.meta.env.BASE_URL
-  const htmlFile = htmlPages[props.post.slug]
-  
-  if (htmlFile) {
-    // Statische HTML-Seite mit korrekten Meta-Tags
-    return `${basePath}${htmlFile}`
-  }
-  
-  // Fallback: Direkt zum Vue Router
-  return `#/blog/${props.post.slug}`
 }
 
 const formatDate = (dateString) => {
