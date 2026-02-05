@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "shu",
+      "name": "Shu",
+      "description": "Ein zensurresistenter Nostr-Client als Progressive Web App",
+      "category": "Dezentrale Netzwerke / PWA",
+      "tags": ["Nostr", "Vue.js", "PWA", "Dezentral"],
+      "repository": "https://github.com/ogerly/shu",
+      "highlight": true,
+      "valueProposition": "Zeigt Fähigkeit, komplexe, zensurresistente Kommunikations-Tools zu bauen mit erstklassiger UI/UX"
+    },
+    {
+      "id": "pyannote-whisper",
+      "name": "Pyannote-Whisper Integration",
+      "description": "KI-gestützte Audio-Verarbeitung mit Whisper und Pyannote",
+      "category": "AI & Machine Learning Pipeline",
+      "tags": ["AI", "Whisper", "Flask", "Machine Learning"],
+      "repository": "https://github.com/ogerly/pyannote-whisper-integration",
+      "highlight": true,
+      "valueProposition": "Integration von State-of-the-Art KI in nutzbare Web-Apps - High-Value Skill"
+    },
+    {
+      "id": "xp-collector",
+      "name": "XP-Collector",
+      "description": "Graphdatenbank-gestützte Datenerfassung mit Neo4j",
+      "category": "Data Engineering / Graphendatenbanken",
+      "tags": ["Neo4j", "Graph Database", "Data Engineering", "Visualization"],
+      "repository": "https://github.com/ogerly/xp-collector",
+      "highlight": true,
+      "valueProposition": "Verstehen von komplexen Datenstrukturen und deren Visualisierung"
+    }
+  ]
+}

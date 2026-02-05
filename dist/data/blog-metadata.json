@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": "keine-angst-vor-ki",
+      "title": "Warum ich keine Angst vor einer bösen KI habe",
+      "slug": "keine-angst-vor-ki",
+      "date": "2026-02-05",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Über Intelligenz, Moral und die falschen Dystopien unserer Zeit. Warum steigende Intelligenz nicht zwangsläufig zu moralischem Versagen führt.",
+      "category": "KI & Philosophie",
+      "tags": ["KI & Ethik", "Philosophie", "AGI", "Superintelligenz", "Moral", "Technologie-Kritik"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/warum-ich-keine-angst-vor-ki-habe.png",
+      "imageAlt": "Künstliche Intelligenz und Moral",
+      "metaDescription": "Eine philosophische Analyse warum höhere Intelligenz nicht automatisch zu Grausamkeit führt – und warum die echte Gefahr woanders liegt.",
+      "component": "05-02-26-Keine-Angst-Vor-KI",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Warum ich keine Angst vor einer bösen KI habe",
+          "hashtags": ["AI", "Ethics", "Philosophy", "AGI", "TechThoughts"]
+        },
+        "twitter": {
+          "title": "🤖 Warum Intelligenz nicht zu Grausamkeit führt",
+          "hashtags": ["AI", "Ethics", "Philosophy", "AGI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Keine Angst vor böser KI 🤖",
+          "hashtags": ["ai", "ethics", "philosophy", "tech", "developer"]
+        }
+      }
+    },
+    {
+      "id": "pen-and-paper-rollenspiele",
+      "title": "Der Algorithmus der Fantasie: Warum digitale Welten das Rollenspiel noch nicht gerettet haben",
+      "slug": "pen-and-paper-rollenspiele",
+      "date": "2026-01-10",
+      "author": "DEVmatrose",
+      "excerpt": "Als Software-Entwickler und Pen & Paper Enthusiast analysiere ich die Lücke zwischen analoger Freiheit und digitaler Perfektion – und warum beide Welten noch nicht zusammengefunden haben.",
+      "category": "Game Design & Entwicklung",
+      "tags": ["Pen & Paper", "Rollenspiel", "Game Design", "TTRPG", "Digitalisierung", "Software-Entwicklung"],
+      "readTime": "8 min",
+      "featured": true,
+      "image": "/images/blog/rollenspiel-hero.png",
+      "imageAlt": "Pen & Paper Würfel treffen auf digitalen Code",
+      "metaDescription": "Zwischen analoger Freiheit und digitaler Perfektion: Eine Analyse, warum weder Pen & Paper noch Computerspiele das perfekte Rollenspiel-Erlebnis bieten.",
+      "component": "10-01-26-Pen-And-Paper-Rollenspiele",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Der Algorithmus der Fantasie: Pen & Paper vs. Digital RPGs",
+          "hashtags": ["GameDesign", "TTRPG", "SoftwareDevelopment", "PenAndPaper", "RPG"]
+        },
+        "twitter": {
+          "title": "🎲 Warum weder Pen & Paper noch CRPGs das perfekte Rollenspiel sind",
+          "hashtags": ["TTRPG", "GameDesign", "PenAndPaper", "RPG"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Der Algorithmus der Fantasie 🎲",
+          "hashtags": ["ttrpg", "penandpaper", "gamedesign", "rollenspiel", "developer"]
+        }
+      }
+    },
+    {
+      "id": "smart-editor-llm-tool",
+      "title": "Warum ich das Rad neu erfunden habe: Die Entstehung eines spezialisierten LLM-Tools",
+      "slug": "smart-editor-llm-tool",
+      "date": "2025-12-03",
+      "author": "DEVmatrose",
+      "excerpt": "Wenn Standard-Software an sensibler Daten scheitert: Die Entstehung eines spezialisierten On-Premise LLM-Tools mit Tab-Architektur und Smart Editor für Fachexperten.",
+      "category": "KI & Tooling",
+      "tags": ["KI-Tooling", "Data Labeling", "On-Premise", "UX Design", "Smart Editor", "LLM-Training"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/aleteiha-layer.png",
+      "imageAlt": "Smart Editor Interface für KI-Daten-Labeling",
+      "metaDescription": "Warum ich ein eigenes KI-Tooling gebaut habe: Tab-Architektur, Smart Editor und On-Premise-First für sensible Daten.",
+      "component": "03-12-25-Smart-Editor-LLM-Tool",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Smart Editor für LLM-Training: Eigenentwicklung statt Standard-Tools",
+          "hashtags": ["AI", "MachineLearning", "DataLabeling", "OnPremise", "UXDesign"]
+        },
+        "twitter": {
+          "title": "🧵 Warum ich für KI-Training ein eigenes Tool gebaut habe",
+          "hashtags": ["AI", "LLM", "BuildInPublic", "OnPremise"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Smart Editor für sensible KI-Daten 🔒",
+          "hashtags": ["ai", "machinelearning", "dataprotection", "developer"]
+        }
+      }
+    },
+    {
+      "id": "vom-code-zum-architekten",
+      "title": "Vom Coder zum Architekten: Warum KI meine Arbeit nicht ersetzt, sondern erweitert",
+      "slug": "vom-code-zum-architekten",
+      "date": "2025-12-02",
+      "author": "DEVmatrose",
+      "excerpt": "Seit 1999 Entwickler, seit 2024 KI-Architekt. Wie mich die Arbeit mit Claude, GPT und Co. vom reinen Coder zum Software-Architekten gemacht hat – und warum das die Zukunft ist.",
+      "category": "KI & Architektur",
+      "tags": ["KI-Entwicklung", "Software-Architektur", "Vibe Coding", "Claude AI", "Best Practices", "Whitepaper"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/architekten-preview.png",
+      "imageAlt": "Software-Architekt arbeitet mit KI-Systemen",
+      "metaDescription": "Von 25 Jahren Entwicklung bis zur KI-gestützten Architektur: Wie Whitepaper, Workpaper und KI-Agenten meine Arbeitsweise revolutioniert haben.",
+      "component": "02-12-25-Vom-Code-zum-Architekten",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Vom Coder zum Architekten: Meine Reise mit KI in der Softwareentwicklung",
+          "hashtags": ["SoftwareArchitecture", "AI", "ClaudeAI", "SoftwareDevelopment"]
+        },
+        "twitter": {
+          "title": "🧵 Wie KI mich vom Coder zum Architekten gemacht hat",
+          "hashtags": ["AI", "SoftwareArchitecture", "BuildInPublic"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Vom Coder zum Architekten 🚀",
+          "hashtags": ["coding", "ai", "architecture", "developer"]
+        }
+      }
+    }
+  ]
+}
