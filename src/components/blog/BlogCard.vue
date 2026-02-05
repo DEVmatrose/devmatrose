@@ -77,11 +77,24 @@ const getImageUrl = (path) => {
 }
 
 const getArticleUrl = () => {
-  // Direkt zur Vue-App mit URL-Parameter
-  if (props.post.slug) {
-    return `#blog?article=${props.post.slug}`
+  // Slug-zu-HTML-Mapping für statische Seiten (Hybrid-Ansatz für SEO)
+  const htmlPages = {
+    'vom-code-zum-architekten': 'blog-vom-code-zum-architekten.html',
+    'smart-editor-llm-tool': 'blog-smart-editor-llm-tool.html',
+    'pen-and-paper-rollenspiele': 'blog-pen-and-paper-rollenspiele.html',
+    'keine-angst-vor-ki': 'blog-keine-angst-vor-ki.html'
   }
-  return '#blog'
+  
+  const basePath = import.meta.env.BASE_URL
+  const htmlFile = htmlPages[props.post.slug]
+  
+  if (htmlFile) {
+    // Statische HTML-Seite mit korrekten Meta-Tags
+    return `${basePath}${htmlFile}`
+  }
+  
+  // Fallback: Direkt zum Vue Router
+  return `#/blog/${props.post.slug}`
 }
 
 const formatDate = (dateString) => {

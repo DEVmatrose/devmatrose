@@ -8,18 +8,18 @@
       <!-- Navigation -->
       <nav class="navbar bg-base-100/80 backdrop-blur-sm border-b border-copper-orange/20 fixed top-0 w-full z-50">
         <div class="navbar-start">
-          <a @click="activeTab = 'home'" class="btn btn-ghost normal-case text-xl terminal-font cursor-pointer">
+          <router-link to="/" class="btn btn-ghost normal-case text-xl terminal-font cursor-pointer">
             <img src="/src/assets/logo-plastisch.png" alt="DEVmatrose Logo" class="h-10 w-10 mr-2" />
             <span class="text-copper-orange glow-pulse">DEV</span><span class="text-cyber-cyan">matrose</span>
-          </a>
+          </router-link>
         </div>
         <div class="navbar-end hidden lg:flex">
           <ul class="menu menu-horizontal px-1 terminal-font">
-            <li><a @click="activeTab = 'home'" :class="{ 'text-copper-orange': activeTab === 'home' }">Home</a></li>
-            <li><a @click="activeTab = 'work'" :class="{ 'text-copper-orange': activeTab === 'work' }">Arbeit</a></li>
-            <li><a @click="activeTab = 'blog'" :class="{ 'text-copper-orange': activeTab === 'blog' }">Blog</a></li>
-            <li><a @click="activeTab = 'references'" :class="{ 'text-copper-orange': activeTab === 'references' }">Referenzen</a></li>
-            <li><a @click="activeTab = 'contact'" :class="{ 'text-copper-orange': activeTab === 'contact' }">Kontakt</a></li>
+            <li><router-link to="/" :class="{ 'text-copper-orange': route.name === 'home' }">Home</router-link></li>
+            <li><router-link to="/work" :class="{ 'text-copper-orange': route.name === 'work' }">Arbeit</router-link></li>
+            <li><router-link to="/blog" :class="{ 'text-copper-orange': route.name === 'blog' || route.name === 'blog-article' }">Blog</router-link></li>
+            <li><router-link to="/references" :class="{ 'text-copper-orange': route.name === 'references' }">Referenzen</router-link></li>
+            <li><router-link to="/contact" :class="{ 'text-copper-orange': route.name === 'contact' }">Kontakt</router-link></li>
           </ul>
         </div>
         <!-- Mobile Menu -->
@@ -31,11 +31,11 @@
               </svg>
             </label>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-200 rounded-box w-52 terminal-font">
-              <li><a @click="activeTab = 'home'">Home</a></li>
-              <li><a @click="activeTab = 'work'">Arbeit</a></li>
-              <li><a @click="activeTab = 'blog'">Blog</a></li>
-              <li><a @click="activeTab = 'references'">Referenzen</a></li>
-              <li><a @click="activeTab = 'contact'">Kontakt</a></li>
+              <li><router-link to="/">Home</router-link></li>
+              <li><router-link to="/work">Arbeit</router-link></li>
+              <li><router-link to="/blog">Blog</router-link></li>
+              <li><router-link to="/references">Referenzen</router-link></li>
+              <li><router-link to="/contact">Kontakt</router-link></li>
             </ul>
           </div>
         </div>
@@ -43,9 +43,11 @@
 
       <!-- Content Area -->
       <main class="pt-20 px-4 pb-20">
-        <Transition name="fade" mode="out-in">
-          <component :is="currentComponent" />
-        </Transition>
+        <router-view v-slot="{ Component }">
+          <Transition name="fade" mode="out-in">
+            <component :is="Component" />
+          </Transition>
+        </router-view>
       </main>
       
       <!-- Footer -->
@@ -62,69 +64,46 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { onMounted, onUnmounted } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import SpiderwebCanvas from './components/SpiderwebCanvas.vue'
-import HomeTab from './components/HomeTab.vue'
-import WorkTab from './components/WorkTab.vue'
-import BlogTab from './components/BlogTab.vue'
-import ReferencesTab from './components/ReferencesTab.vue'
-import ContactTab from './components/ContactTab.vue'
 
-const activeTab = ref('home')
+const router = useRouter()
+const route = useRoute()
 
-const currentComponent = computed(() => {
-  const components = {
-    home: HomeTab,
-    work: WorkTab,
-    blog: BlogTab,
-    references: ReferencesTab,
-    contact: ContactTab
-  }
-  return components[activeTab.value]
-})
-
-// Listen for custom navigate events
+// Listen for custom navigate events (für Hybrid-Ansatz mit statischen HTML-Seiten)
 const handleChangeTab = (event) => {
-  activeTab.value = event.detail
+  const target = event.detail
+  if (['home', 'work', 'blog', 'references', 'contact'].includes(target)) {
+    router.push({ name: target })
+  }
 }
 
 const handleNavigate = (event) => {
   const target = event.detail
   if (['home', 'work', 'blog', 'references', 'contact'].includes(target)) {
-    activeTab.value = target
-    window.location.hash = `#${target}`
+    router.push({ name: target })
   }
 }
 
-// Initialize tab from URL hash
-const initializeTabFromUrl = () => {
-  const hash = window.location.hash
-  
-  // Extract main tab from hash (e.g., #blog or #blog?article=...)
-  if (hash.startsWith('#blog')) {
-    activeTab.value = 'blog'
-  } else if (hash.startsWith('#work')) {
-    activeTab.value = 'work'
-  } else if (hash.startsWith('#references')) {
-    activeTab.value = 'references'
-  } else if (hash.startsWith('#contact')) {
-    activeTab.value = 'contact'
-  } else if (hash.startsWith('#home') || hash === '#') {
-    activeTab.value = 'home'
+const handleOpenBlogPost = (event) => {
+  const post = event.detail
+  if (post.slug) {
+    router.push({ name: 'blog-article', params: { slug: post.slug } })
   }
 }
 
 onMounted(() => {
-  initializeTabFromUrl()  // Check URL on app start
+  // Events für Hybrid-Ansatz (statische HTML-Seiten können diese Events triggern)
   window.addEventListener('change-tab', handleChangeTab)
   window.addEventListener('navigate', handleNavigate)
-  window.addEventListener('hashchange', initializeTabFromUrl)
+  window.addEventListener('open-blog-post', handleOpenBlogPost)
 })
 
 onUnmounted(() => {
   window.removeEventListener('change-tab', handleChangeTab)
   window.removeEventListener('navigate', handleNavigate)
-  window.removeEventListener('hashchange', initializeTabFromUrl)
+  window.removeEventListener('open-blog-post', handleOpenBlogPost)
 })
 </script>
 

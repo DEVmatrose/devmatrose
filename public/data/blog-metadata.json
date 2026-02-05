@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "keine-angst-vor-ki",
+      "title": "Warum ich keine Angst vor einer bösen KI habe",
+      "slug": "keine-angst-vor-ki",
+      "date": "2026-02-05",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Über Intelligenz, Moral und die falschen Dystopien unserer Zeit. Warum steigende Intelligenz nicht zwangsläufig zu moralischem Versagen führt.",
+      "category": "KI & Philosophie",
+      "tags": ["KI & Ethik", "Philosophie", "AGI", "Superintelligenz", "Moral", "Technologie-Kritik"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/warum-ich-keine-angst-vor-ki-habe.png",
+      "imageAlt": "Künstliche Intelligenz und Moral",
+      "metaDescription": "Eine philosophische Analyse warum höhere Intelligenz nicht automatisch zu Grausamkeit führt – und warum die echte Gefahr woanders liegt.",
+      "component": "05-02-26-Keine-Angst-Vor-KI",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Warum ich keine Angst vor einer bösen KI habe",
+          "hashtags": ["AI", "Ethics", "Philosophy", "AGI", "TechThoughts"]
+        },
+        "twitter": {
+          "title": "🤖 Warum Intelligenz nicht zu Grausamkeit führt",
+          "hashtags": ["AI", "Ethics", "Philosophy", "AGI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Keine Angst vor böser KI 🤖",
+          "hashtags": ["ai", "ethics", "philosophy", "tech", "developer"]
+        }
+      }
+    },
+    {
       "id": "pen-and-paper-rollenspiele",
       "title": "Der Algorithmus der Fantasie: Warum digitale Welten das Rollenspiel noch nicht gerettet haben",
       "slug": "pen-and-paper-rollenspiele",
@@ -11,7 +41,7 @@
       "tags": ["Pen & Paper", "Rollenspiel", "Game Design", "TTRPG", "Digitalisierung", "Software-Entwicklung"],
       "readTime": "8 min",
       "featured": true,
-      "image": "/images/blog/rollenspiel-preview.png",
+      "image": "/images/blog/rollenspiel-hero.png",
       "imageAlt": "Pen & Paper Würfel treffen auf digitalen Code",
       "metaDescription": "Zwischen analoger Freiheit und digitaler Perfektion: Eine Analyse, warum weder Pen & Paper noch Computerspiele das perfekte Rollenspiel-Erlebnis bieten.",
       "component": "04-12-25-Pen-And-Paper-Rollenspiele",
