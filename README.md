@@ -5,7 +5,7 @@
 # [DEVmatrose bei GitHub](https://github.com/DEVmatrose)
 
 Website für **DEVmatrose** - Senior Developer & Software-Architekt für digitale Ökosysteme.
-## [DEVmatrose Webseite]([https://github.com/DEVmatrose](https://devmatrose.github.io/devmatrose/))
+## [DEVmatrose Webseite](https://devmatrose.github.io/devmatrose/)
 
 
 ---
