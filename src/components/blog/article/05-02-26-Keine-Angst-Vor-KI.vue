@@ -349,9 +349,10 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 
-const heroImage = '/images/warum-ich-keine-angst-vor-ki-habe.png'
+const basePath = import.meta.env.BASE_URL
+const heroImage = computed(() => `${basePath}images/warum-ich-keine-angst-vor-ki-habe.png`)
 const linkCopied = ref(false)
 
 const tags = [
