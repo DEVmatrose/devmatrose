@@ -8,7 +8,7 @@ import ContactTab from '../components/ContactTab.vue'
 // Import Blog Article Components
 import VomCodeZumArchitekten from '../components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue'
 import SmartEditorLlmTool from '../components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue'
-import PenAndPaperRollenspiele from '../components/blog/article/04-12-25-Pen-And-Paper-Rollenspiele.vue'
+import PenAndPaperRollenspiele from '../components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue'
 import KeineAngstVorKI from '../components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue'
 
 const routes = [

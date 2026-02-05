@@ -402,14 +402,14 @@ Für jeden Blog-Artikel wird eine separate, statische HTML-Datei erstellt, die:
   <!-- SEO Meta-Tags -->
   <title>Artikeltitel | DEVmatrose</title>
   <meta name="description" content="...">
-  <link rel="canonical" href="https://ogerly.github.io/devmatrose/blog-artikel.html">
+  <link rel="canonical" href="https://devmatrose.github.io/devmatrose/blog-artikel.html">
   
   <!-- Open Graph (LinkedIn, Facebook) -->
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="DEVmatrose - Die Architekturschmiede">
   <meta property="og:title" content="...">
   <meta property="og:description" content="...">
-  <meta property="og:image" content="https://ogerly.github.io/devmatrose/images/blog/preview.png">
+  <meta property="og:image" content="https://devmatrose.github.io/devmatrose/images/blog/preview.png">
   <meta property="og:url" content="...">
   <meta property="article:published_time" content="2025-12-02T00:00:00Z">
   
@@ -419,12 +419,12 @@ Für jeden Blog-Artikel wird eine separate, statische HTML-Datei erstellt, die:
   <meta name="twitter:image" content="...">
   
   <!-- Auto-Redirect zur Vue App -->
-  <meta http-equiv="refresh" content="0;url=https://ogerly.github.io/devmatrose/#blog?article=slug">
+  <meta http-equiv="refresh" content="0;url=https://devmatrose.github.io/devmatrose/#blog?article=slug">
   
   <!-- Fallback für JavaScript -->
   <script>
     setTimeout(() => {
-      window.location.href = 'https://ogerly.github.io/devmatrose/#blog?article=slug';
+      window.location.href = 'https://devmatrose.github.io/devmatrose/#blog?article=slug';
     }, 100);
   </script>
 </head>
@@ -623,8 +623,8 @@ const copyArticleLink = async () => {
 
 **Status: ✅ Implementiert & Dokumentiert**
 **Datum: 02.12.2025**
-**Artikel-URL (Static):** https://ogerly.github.io/devmatrose/blog-vom-code-zum-architekten.html
-**Artikel-URL (SPA):** https://ogerly.github.io/devmatrose/#blog?article=vom-code-zum-architekten
+**Artikel-URL (Static):** https://devmatrose.github.io/devmatrose/blog-vom-code-zum-architekten.html
+**Artikel-URL (SPA):** https://devmatrose.github.io/devmatrose/#blog?article=vom-code-zum-architekten
 
 ### 8.10 Technische Besonderheiten
 
@@ -746,7 +746,7 @@ Banner-Bild (`devmatrose-banner.png`) als Vorschau für alle Plattformen via Git
 - Repository: `ogerly/devmatrose`
 - Branch: `main`
 - Deployment: GitHub Actions
-- URL: `https://ogerly.github.io/devmatrose/`
+- URL: `https://devmatrose.github.io/devmatrose/`
 
 **Vite-Konfiguration:**
 ```javascript
@@ -879,7 +879,7 @@ Branch: main (protected)
 ---
 
 **Status: ✅ LIVE IN PRODUCTION**
-**URL: https://ogerly.github.io/devmatrose/**
+**URL: https://devmatrose.github.io/devmatrose/**
 **Deployment-Datum: 01.12.2025**
 **Letzte Aktualisierung Workpaper: 01.12.2025 - 23:45 Uhr**
 **Verantwortlich: GitHub Copilot (Claude Sonnet 4.5) in Zusammenarbeit mit DEVmatrose**

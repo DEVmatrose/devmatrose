@@ -31,7 +31,7 @@ const route = useRoute()
 // Import article components
 import VomCodeZumArchitekten from './blog/article/02-12-25-Vom-Code-zum-Architekten.vue'
 import SmartEditorLlmTool from './blog/article/03-12-25-Smart-Editor-LLM-Tool.vue'
-import PenAndPaperRollenspiele from './blog/article/04-12-25-Pen-And-Paper-Rollenspiele.vue'
+import PenAndPaperRollenspiele from './blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue'
 import KeineAngstVorKI from './blog/article/05-02-26-Keine-Angst-Vor-KI.vue'
 
 const selectedPost = ref(null)
@@ -39,11 +39,10 @@ const selectedPost = ref(null)
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
-   '05-02-26-Keine-Angst-Vor-KI': KeineAngstVorKI,
+  '05-02-26-Keine-Angst-Vor-KI': KeineAngstVorKI,
   '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten,
   '03-12-25-Smart-Editor-LLM-Tool': SmartEditorLlmTool,
-  '04-12-25-Pen-And-Paper-Rollenspiele': PenAndPaperRollenspiele
- 
+  '10-01-26-Pen-And-Paper-Rollenspiele': PenAndPaperRollenspiele
 }
 
 const articleComponent = computed(() => {

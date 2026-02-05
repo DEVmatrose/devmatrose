@@ -141,8 +141,8 @@ const event = {
 <meta property="og:type" content="article" />
 <meta property="og:title" content="{{ post.title }}" />
 <meta property="og:description" content="{{ post.metaDescription }}" />
-<meta property="og:image" content="https://ogerly.github.io/devmatrose{{ post.image }}" />
-<meta property="og:url" content="https://ogerly.github.io/devmatrose/blog/{{ post.slug }}" />
+<meta property="og:image" content="https://devmatrose.github.io/devmatrose{{ post.image }}" />
+<meta property="og:url" content="https://devmatrose.github.io/devmatrose/blog/{{ post.slug }}" />
 <meta property="article:published_time" content="{{ post.date }}" />
 <meta property="article:author" content="DEVmatrose" />
 <meta property="article:section" content="{{ post.category }}" />
@@ -152,7 +152,7 @@ const event = {
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="{{ post.socialMedia.twitter.title }}" />
 <meta name="twitter:description" content="{{ post.excerpt }}" />
-<meta name="twitter:image" content="https://ogerly.github.io/devmatrose{{ post.image }}" />
+<meta name="twitter:image" content="https://devmatrose.github.io/devmatrose{{ post.image }}" />
 
 <!-- LinkedIn -->
 <meta property="og:site_name" content="DEVmatrose - Die Architekturschmiede" />
@@ -169,14 +169,14 @@ const event = {
   "author": {
     "@type": "Person",
     "name": "DEVmatrose",
-    "url": "https://ogerly.github.io/devmatrose/"
+    "url": "https://devmatrose.github.io/devmatrose/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "DEVmatrose",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://ogerly.github.io/devmatrose/src/assets/logo-plastisch.png"
+      "url": "https://devmatrose.github.io/devmatrose/src/assets/logo-plastisch.png"
     }
   },
   "description": "{{ post.metaDescription }}"
@@ -534,12 +534,12 @@ blog-vom-code-zum-architekten.html
 
 **Shareable URL:**
 ```
-https://ogerly.github.io/devmatrose/blog-vom-code-zum-architekten.html
+https://devmatrose.github.io/devmatrose/blog-vom-code-zum-architekten.html
 ```
 
 **Redirect-Ziel:**
 ```
-https://ogerly.github.io/devmatrose/#blog?article=vom-code-zum-architekten
+https://devmatrose.github.io/devmatrose/#blog?article=vom-code-zum-architekten
 ```
 
 **BlogTab.vue liest URL-Parameter:**
@@ -584,7 +584,7 @@ const copyArticleLink = async () => {
 <meta property="og:site_name" content="DEVmatrose - Die Architekturschmiede">
 <meta property="og:title" content="...">
 <meta property="og:description" content="...">
-<meta property="og:image" content="https://ogerly.github.io/devmatrose/images/blog/preview.png">
+<meta property="og:image" content="https://devmatrose.github.io/devmatrose/images/blog/preview.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:url" content="...">
@@ -688,7 +688,7 @@ const copyArticleLink = async () => {
 
 **Status: ✅ Produktiv implementiert**
 **Artikel: "Vom Coder zum Architekten"**
-**Live-URL:** https://ogerly.github.io/devmatrose/blog-vom-code-zum-architekten.html
+**Live-URL:** https://devmatrose.github.io/devmatrose/blog-vom-code-zum-architekten.html
 **Implementierungsdatum:** 02.12.2025
 
 ---

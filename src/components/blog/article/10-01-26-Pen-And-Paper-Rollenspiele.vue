@@ -257,10 +257,10 @@ useHead({
     { property: 'og:type', content: 'article' },
     { property: 'og:title', content: 'Der Algorithmus der Fantasie: Pen & Paper vs. Digital' },
     { property: 'og:description', content: 'Zwischen analoger Freiheit und digitaler Perfektion: Eine Analyse, warum weder Pen & Paper noch Computerspiele das perfekte Rollenspiel-Erlebnis bieten.' },
-    { property: 'og:image', content: 'https://ogerly.github.io/devmatrose/images/blog/rollenspiel-preview.png' },
+    { property: 'og:image', content: 'https://devmatrose.github.io/devmatrose/images/blog/rollenspiel-preview.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:url', content: 'https://ogerly.github.io/devmatrose/#blog' },
+    { property: 'og:url', content: 'https://devmatrose.github.io/devmatrose/#blog' },
     { property: 'article:published_time', content: '2026-01-10' },
     { property: 'article:author', content: 'DEVmatrose' },
     { property: 'article:section', content: 'Game Design & Entwicklung' },
@@ -269,7 +269,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Der Algorithmus der Fantasie: Warum RPGs noch nicht perfekt sind' },
     { name: 'twitter:description', content: 'Ein Software-Entwickler analysiert die Lücke zwischen Pen & Paper und digitalen Rollenspielen.' },
-    { name: 'twitter:image', content: 'https://ogerly.github.io/devmatrose/images/blog/rollenspiel-preview.png' },
+    { name: 'twitter:image', content: 'https://devmatrose.github.io/devmatrose/images/blog/rollenspiel-preview.png' },
   ]
 })
 </script>

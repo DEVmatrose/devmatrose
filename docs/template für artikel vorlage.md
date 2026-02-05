@@ -17,14 +17,14 @@ Beispiel: `blog-vom-code-zum-architekten.html`
   description: "ARTIKEL-BESCHREIBUNG (max 160 Zeichen)",
   
   // URLs
-  canonical: "https://ogerly.github.io/devmatrose/blog-ARTIKEL-SLUG.html",
+  canonical: "https://devmatrose.github.io/devmatrose/blog-ARTIKEL-SLUG.html",
   redirect: "/devmatrose/#blog?article=ARTIKEL-SLUG",
   
   // Open Graph
   ogType: "article",
   ogTitle: "ARTIKEL-TITEL",
   ogDescription: "AUSFÜHRLICHE BESCHREIBUNG (max 200 Zeichen)",
-  ogImage: "https://ogerly.github.io/devmatrose/images/blog/ARTIKEL-SLUG-preview.png",
+  ogImage: "https://devmatrose.github.io/devmatrose/images/blog/ARTIKEL-SLUG-preview.png",
   ogImageAlt: "BILD-BESCHREIBUNG",
   
   // Article Info
@@ -71,7 +71,7 @@ Für optimale Social-Media-Vorschauen:
 ### 5. Test-URLs
 
 Nach dem Deploy teste:
-- ✓ HTML-Seite: `https://ogerly.github.io/devmatrose/blog-artikel-slug.html`
+- ✓ HTML-Seite: `https://devmatrose.github.io/devmatrose/blog-artikel-slug.html`
 - ✓ Redirect zur Vue-App funktioniert
 - ✓ Artikel lädt korrekt in Vue-App
 - ✓ Meta-Tags mit [Social Share Preview](https://www.opengraph.xyz/) prüfen

@@ -385,10 +385,10 @@ useHead({
     { property: 'og:type', content: 'article' },
     { property: 'og:title', content: 'Smart Editor für LLM-Training: Eigenentwicklung statt Standard-Tools' },
     { property: 'og:description', content: 'Warum ich ein eigenes KI-Tooling gebaut habe: Tab-Architektur, Smart Editor und On-Premise-First für sensible Daten.' },
-    { property: 'og:image', content: 'https://ogerly.github.io/devmatrose/images/blog/aleteiha-layer.png' },
+    { property: 'og:image', content: 'https://devmatrose.github.io/devmatrose/images/blog/aleteiha-layer.png' },
     { property: 'og:image:width', content: '1200' },
     { property: 'og:image:height', content: '630' },
-    { property: 'og:url', content: 'https://ogerly.github.io/devmatrose/#blog' },
+    { property: 'og:url', content: 'https://devmatrose.github.io/devmatrose/#blog' },
     { property: 'article:published_time', content: '2025-12-03' },
     { property: 'article:author', content: 'DEVmatrose' },
     { property: 'article:section', content: 'KI & Tooling' },
@@ -397,7 +397,7 @@ useHead({
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'Smart Editor für LLM-Training: Warum ich das Rad neu erfunden habe' },
     { name: 'twitter:description', content: 'On-Premise KI-Tool mit Tab-Architektur für sensible Daten: Die Entstehung eines spezialisierten Smart Editors.' },
-    { name: 'twitter:image', content: 'https://ogerly.github.io/devmatrose/images/blog/aleteiha-layer.png' },
+    { name: 'twitter:image', content: 'https://devmatrose.github.io/devmatrose/images/blog/aleteiha-layer.png' },
   ]
 })
 </script>
