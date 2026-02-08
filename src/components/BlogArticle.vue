@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'schwarm-vs-grossrechner-neue-machtfrage',
+    title: 'Bits, Pilze und die neue Machtfrage: Warum der Großrechner stirbt und der Schwarm übernimmt',
+    excerpt: 'Der entscheidende Bruch: Freiheit durch Architektur statt durch Erlaubnis.',
+    metaDescription: 'Von Kathedralen zu Pilzgeflechten: Warum verteilte KI-Infrastruktur die alte Machtfrage neu stellt und was das für Kompetenz, Kontrolle und Freiheit bedeutet.',
+    image: '/images/blog/schwarm-vs-grossrechner-hero.png',
+    author: 'Alexander Friedland (@ogerly)',
+    date: '2026-02-08',
+    tags: ['KI-Infrastruktur', 'Dezentralisierung', 'Schwarmintelligenz', 'Edge Computing'],
+    component: '08-02-26-Schwarm-vs-Grossrechner'
+  },
+  {
     slug: 'keine-angst-vor-ki',
     title: 'Warum ich keine Angst vor einer bösen KI habe',
     excerpt: 'Über Intelligenz, Moral und die falschen Dystopien unserer Zeit.',
@@ -105,6 +116,9 @@ const articleComponents = {
   ),
   '05-02-26-Keine-Angst-Vor-KI': defineAsyncComponent(() => 
     import('./blog/article/05-02-26-Keine-Angst-Vor-KI.vue')
+  ),
+  '08-02-26-Schwarm-vs-Grossrechner': defineAsyncComponent(() => 
+    import('./blog/article/08-02-26-Schwarm-vs-Grossrechner.vue')
   )
 }
 

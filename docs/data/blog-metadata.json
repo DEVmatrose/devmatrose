@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "schwarm-vs-grossrechner-neue-machtfrage",
+      "title": "Bits, Pilze und die neue Machtfrage: Warum der Großrechner stirbt und der Schwarm übernimmt",
+      "slug": "schwarm-vs-grossrechner-neue-machtfrage",
+      "date": "2026-02-08",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Der entscheidende Bruch: Freiheit durch Architektur statt durch Erlaubnis. Warum dezentralisierte KI-Infrastruktur die Grundfesten klassischer Macht erschüttert.",
+      "category": "KI & Infrastruktur",
+      "tags": ["KI-Infrastruktur", "Dezentralisierung", "Schwarmintelligenz", "Edge Computing", "Macht & Technologie", "Verteilte Systeme"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/schwarm-vs-grossrechner-preview.png",
+      "imageAlt": "Dezentralisierte KI-Infrastruktur und Schwarmintelligenz",
+      "metaDescription": "Von Kathedralen zu Pilzgeflechten: Warum verteilte KI-Infrastruktur die alte Machtfrage neu stellt und was das für Kompetenz, Kontrolle und Freiheit bedeutet.",
+      "component": "08-02-26-Schwarm-vs-Grossrechner",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Bits, Pilze und die neue Machtfrage: Der Schwarm übernimmt",
+          "hashtags": ["AI", "DistributedSystems", "EdgeComputing", "TechPhilosophy", "Power"]
+        },
+        "twitter": {
+          "title": "🌐 Warum der Großrechner stirbt und der Schwarm übernimmt",
+          "hashtags": ["AI", "DecentralizedAI", "SwarmIntelligence", "EdgeComputing"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Bits, Pilze und die neue Machtfrage 🍄",
+          "hashtags": ["ai", "decentralization", "tech", "power", "developer"]
+        }
+      }
+    },
+    {
       "id": "keine-angst-vor-ki",
       "title": "Warum ich keine Angst vor einer bösen KI habe",
       "slug": "keine-angst-vor-ki",

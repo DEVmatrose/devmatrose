@@ -33,12 +33,14 @@ import VomCodeZumArchitekten from './blog/article/02-12-25-Vom-Code-zum-Architek
 import SmartEditorLlmTool from './blog/article/03-12-25-Smart-Editor-LLM-Tool.vue'
 import PenAndPaperRollenspiele from './blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue'
 import KeineAngstVorKI from './blog/article/05-02-26-Keine-Angst-Vor-KI.vue'
+import SchwarmVsGrossrechner from './blog/article/08-02-26-Schwarm-vs-Grossrechner.vue'
 
 const selectedPost = ref(null)
 
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
+  '08-02-26-Schwarm-vs-Grossrechner': SchwarmVsGrossrechner,
   '05-02-26-Keine-Angst-Vor-KI': KeineAngstVorKI,
   '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten,
   '03-12-25-Smart-Editor-LLM-Tool': SmartEditorLlmTool,

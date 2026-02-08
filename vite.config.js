@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'schwarm-vs-grossrechner-neue-machtfrage',
   'keine-angst-vor-ki',
   'pen-and-paper-rollenspiele', 
   'smart-editor-llm-tool',

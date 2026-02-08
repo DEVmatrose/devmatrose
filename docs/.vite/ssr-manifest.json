@@ -28,80 +28,88 @@
   "src/App.vue": [],
   "src/App.vue?vue&type=style&index=0&scoped=cb3d091c&lang.css": [],
   "src/components/BlogArticle.vue": [
-    "/devmatrose/assets/BlogArticle-Dg8f4FC9.js"
+    "/devmatrose/assets/BlogArticle-DoAQcGty.js"
   ],
   "src/components/BlogTab.vue": [
-    "/devmatrose/assets/BlogTab-Ct7gegTG.js"
+    "/devmatrose/assets/BlogTab-wkSDpFIP.js"
   ],
   "src/components/ContactTab.vue": [
-    "/devmatrose/assets/ContactTab-DVpT-kzV.js"
+    "/devmatrose/assets/ContactTab-CH3wDE2b.js"
   ],
   "src/components/HomeTab.vue": [
-    "/devmatrose/assets/HomeTab-KvbX3uCd.js",
+    "/devmatrose/assets/HomeTab-O64uE41H.js",
     "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
   "src/components/HomeTab.vue?vue&type=style&index=0&scoped=e76631c6&lang.css": [
-    "/devmatrose/assets/HomeTab-KvbX3uCd.js",
+    "/devmatrose/assets/HomeTab-O64uE41H.js",
     "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
   "src/components/ReferencesTab.vue": [
-    "/devmatrose/assets/ReferencesTab-Bwbi97WY.js"
+    "/devmatrose/assets/ReferencesTab-Bnl04ivz.js"
   ],
   "src/components/SpiderwebCanvas.vue": [],
   "src/components/SpiderwebCanvas.vue?vue&type=style&index=0&scoped=a1793770&lang.css": [],
   "src/components/WorkTab.vue": [
-    "/devmatrose/assets/WorkTab-DuPsWoDd.js"
+    "/devmatrose/assets/WorkTab-CCpAtpbZ.js"
   ],
   "src/components/blog/BlogCard.vue": [
-    "/devmatrose/assets/BlogList-DGJieo-r.js",
+    "/devmatrose/assets/BlogList-3-dLEt6E.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogCard.vue?vue&type=style&index=0&scoped=9a94abcb&lang.css": [
-    "/devmatrose/assets/BlogList-DGJieo-r.js",
+    "/devmatrose/assets/BlogList-3-dLEt6E.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogList.vue": [
-    "/devmatrose/assets/BlogList-DGJieo-r.js",
+    "/devmatrose/assets/BlogList-3-dLEt6E.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogList.vue?vue&type=style&index=0&scoped=973e8405&lang.css": [
-    "/devmatrose/assets/BlogList-DGJieo-r.js",
+    "/devmatrose/assets/BlogList-3-dLEt6E.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-Qig-v7Bl.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-B-8qXVL5.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue?vue&type=style&index=0&scoped=6cf612f9&lang.css": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-Qig-v7Bl.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-B-8qXVL5.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-gWjkcoWf.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-DkPSbJfB.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue?vue&type=style&index=0&scoped=360d27e1&lang.css": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-gWjkcoWf.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-DkPSbJfB.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-B-5GdKRt.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-HMMSkurP.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-DIXzT5G2.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue?vue&type=style&index=0&scoped=ca1b4975&lang.css": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-B-5GdKRt.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-HMMSkurP.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-DIXzT5G2.css"
   ],
+  "src/components/blog/article/08-02-26-Schwarm-vs-Grossrechner.vue": [
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-CO-PhS4u.js",
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-C1ympo1e.css"
+  ],
+  "src/components/blog/article/08-02-26-Schwarm-vs-Grossrechner.vue?vue&type=style&index=0&scoped=d55f3d17&lang.css": [
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-CO-PhS4u.js",
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-C1ympo1e.css"
+  ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-BdtaDK5t.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-9GgLbBkp.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue?vue&type=style&index=0&scoped=3fbb1637&lang.css": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-BdtaDK5t.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-9GgLbBkp.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/composables/useSEO.js": [
-    "/devmatrose/assets/BlogArticle-Dg8f4FC9.js"
+    "/devmatrose/assets/BlogArticle-DoAQcGty.js"
   ],
   "src/main.js": [],
   "src/router/routes.js": [],
