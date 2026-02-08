@@ -41,7 +41,7 @@ const blogPosts = [
     title: 'Bits, Pilze und die neue Machtfrage: Warum der Großrechner stirbt und der Schwarm übernimmt',
     excerpt: 'Der entscheidende Bruch: Freiheit durch Architektur statt durch Erlaubnis.',
     metaDescription: 'Von Kathedralen zu Pilzgeflechten: Warum verteilte KI-Infrastruktur die alte Machtfrage neu stellt und was das für Kompetenz, Kontrolle und Freiheit bedeutet.',
-    image: '/images/blog/schwarm-vs-grossrechner-hero.png',
+    image: '/images/blog/schwarm-vs-grossrechner-preview.png',
     author: 'Alexander Friedland (@ogerly)',
     date: '2026-02-08',
     tags: ['KI-Infrastruktur', 'Dezentralisierung', 'Schwarmintelligenz', 'Edge Computing'],
