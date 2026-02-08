@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'biometrie-sicherheit-tr-03166-a',
+    title: 'Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A)',
+    excerpt: 'Das BSI hat die TR-03166 v2.0 veröffentlicht – aber reicht das gegen autonome KI-Agenten?',
+    metaDescription: 'Warum klassische Biometrie gegen autonome KI-Angreifer neu gedacht werden muss: Moving Target Defense, Continuous Authentication und Hardware-Binding als Antwort auf die TR-03166.',
+    image: '/images/blog/biometrie-tr-03166-a-hero.png',
+    author: 'DEVmatrose',
+    date: '2026-02-09',
+    tags: ['Biometrie', 'Security', 'KI-Sicherheit', 'TR-03166'],
+    component: '09-02-26-Biometrie-Sicherheit-TR-03166-A'
+  },
+  {
     slug: 'schwarm-vs-grossrechner-neue-machtfrage',
     title: 'Bits, Pilze und die neue Machtfrage: Warum der Großrechner stirbt und der Schwarm übernimmt',
     excerpt: 'Der entscheidende Bruch: Freiheit durch Architektur statt durch Erlaubnis.',
@@ -119,6 +130,9 @@ const articleComponents = {
   ),
   '08-02-26-Schwarm-vs-Grossrechner': defineAsyncComponent(() => 
     import('./blog/article/08-02-26-Schwarm-vs-Grossrechner.vue')
+  ),
+  '09-02-26-Biometrie-Sicherheit-TR-03166-A': defineAsyncComponent(() => 
+    import('./blog/article/09-02-26-Biometrie-Sicherheit-TR-03166-A.vue')
   )
 }
 

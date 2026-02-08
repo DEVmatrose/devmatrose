@@ -34,12 +34,14 @@ import SmartEditorLlmTool from './blog/article/03-12-25-Smart-Editor-LLM-Tool.vu
 import PenAndPaperRollenspiele from './blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue'
 import KeineAngstVorKI from './blog/article/05-02-26-Keine-Angst-Vor-KI.vue'
 import SchwarmVsGrossrechner from './blog/article/08-02-26-Schwarm-vs-Grossrechner.vue'
+import BiometrieSicherheitTR03166A from './blog/article/09-02-26-Biometrie-Sicherheit-TR-03166-A.vue'
 
 const selectedPost = ref(null)
 
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
+  '09-02-26-Biometrie-Sicherheit-TR-03166-A': BiometrieSicherheitTR03166A,
   '08-02-26-Schwarm-vs-Grossrechner': SchwarmVsGrossrechner,
   '05-02-26-Keine-Angst-Vor-KI': KeineAngstVorKI,
   '02-12-25-Vom-Code-zum-Architekten': VomCodeZumArchitekten,
