@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'ordo-ab-chao-agenten-mesh-netzwerk',
   'biometrie-sicherheit-tr-03166-a',
   'schwarm-vs-grossrechner-neue-machtfrage',
   'keine-angst-vor-ki',

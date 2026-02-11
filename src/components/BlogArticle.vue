@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'ordo-ab-chao-agenten-mesh-netzwerk',
+    title: 'Ordo ab Chao: Warum deine Agenten-Netzwerke den Sturm brauchen',
+    excerpt: 'Ordnung im Chaos: Wie Mesh-Netzwerke aus Unordnung emergente Intelligenz erzeugen.',
+    metaDescription: 'Warum dezentrale Agenten-Mesh-Netzwerke kontrolliertes Chaos brauchen: Emergente Intelligenz, Antifragilität und Gossip-Protokolle für seefeste KI-Systeme.',
+    image: '/images/blog/ordo-ab-chao-mesh-hero.png',
+    author: 'Alexander Friedland (@ogerly)',
+    date: '2026-02-11',
+    tags: ['Multi-Agent-Systeme', 'Mesh-Netzwerk', 'Schwarmintelligenz', 'Architektur'],
+    component: '11-02-26-Ordo-Ab-Chao-Agenten-Mesh'
+  },
+  {
     slug: 'biometrie-sicherheit-tr-03166-a',
     title: 'Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A)',
     excerpt: 'Das BSI hat die TR-03166 v2.0 veröffentlicht – aber reicht das gegen autonome KI-Agenten?',
@@ -133,6 +144,9 @@ const articleComponents = {
   ),
   '09-02-26-Biometrie-Sicherheit-TR-03166-A': defineAsyncComponent(() => 
     import('./blog/article/09-02-26-Biometrie-Sicherheit-TR-03166-A.vue')
+  ),
+  '11-02-26-Ordo-Ab-Chao-Agenten-Mesh': defineAsyncComponent(() => 
+    import('./blog/article/11-02-26-Ordo-Ab-Chao-Agenten-Mesh.vue')
   )
 }
 
