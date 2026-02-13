@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A) | DEVmatrose</title>
+    <meta name="title" content="Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A)">
+    <meta name="description" content="Warum klassische Biometrie gegen autonome KI-Angreifer neu gedacht werden muss: Moving Target Defense, Continuous Authentication und Hardware-Binding als Antwort auf die TR-03166.">
+    <meta name="author" content="DEVmatrose">
+    <meta name="keywords" content="Biometrie, Security, KI-Sicherheit, TR-03166, BSI, Authentication, Deepfakes, Künstliche Intelligenz">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://devmatrose.github.io/devmatrose/blog-biometrie-sicherheit-tr-03166-a.html">
+    <meta property="og:title" content="Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A)">
+    <meta property="og:description" content="Warum klassische Biometrie gegen autonome KI-Angreifer neu gedacht werden muss: Moving Target Defense, Continuous Authentication und Hardware-Binding als Antwort auf die TR-03166.">
+    <meta property="og:image" content="https://devmatrose.github.io/devmatrose/images/blog/biometrie-tr-03166-a-hero.png">
+    <meta property="og:image:secure_url" content="https://devmatrose.github.io/devmatrose/images/blog/biometrie-tr-03166-a-hero.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Biometrie-Sicherheit und KI-Agenten">
+    <meta property="og:site_name" content="DEVmatrose">
+    <meta property="og:locale" content="de_DE">
+    
+    <!-- Article Meta Tags -->
+    <meta property="article:published_time" content="2026-02-09T10:00:00+01:00">
+    <meta property="article:modified_time" content="2026-02-09T10:00:00+01:00">
+    <meta property="article:author" content="DEVmatrose">
+    <meta property="article:section" content="Security & KI">
+    <meta property="article:tag" content="Biometrie">
+    <meta property="article:tag" content="Security">
+    <meta property="article:tag" content="KI-Sicherheit">
+    <meta property="article:tag" content="TR-03166">
+    <meta property="article:tag" content="BSI">
+    <meta property="article:tag" content="Authentication">
+    <meta property="article:tag" content="Deepfakes">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ogerly">
+    <meta name="twitter:creator" content="@ogerly">
+    <meta name="twitter:title" content="🔐 Wenn KI-Agenten an die Biometrie-Tür klopfen: TR-03166-A">
+    <meta name="twitter:description" content="Warum klassische Biometrie gegen autonome KI-Angreifer neu gedacht werden muss: Moving Target Defense, Continuous Authentication und Hardware-Binding als Antwort auf die TR-03166.">
+    <meta name="twitter:image" content="https://devmatrose.github.io/devmatrose/images/blog/biometrie-tr-03166-a-hero.png">
+    <meta name="twitter:image:alt" content="Biometrie-Sicherheit und KI-Agenten">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" content="https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a">
+    
+    <!-- Auto-redirect to Vue App -->
+    <meta http-equiv="refresh" content="1.5;url=https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/devmatrose/favicon.png">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff9966;
+            text-shadow: 0 0 20px rgba(255, 153, 102, 0.5);
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            color: #66d9ff;
+            margin-bottom: 30px;
+        }
+        .loading {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(102, 217, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #66d9ff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .redirect-text {
+            margin-top: 30px;
+            color: #b0b0b0;
+        }
+        a {
+            color: #ff9966;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .meta-info {
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        .meta-info p {
+            margin: 10px 0;
+            font-size: 0.9rem;
+        }
+        .author {
+            color: #66d9ff;
+            font-weight: bold;
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Biometrie-Sicherheit: Wenn der KI-Agent an die Reling klopft (TR-03166-A)",
+        "alternativeHeadline": "Das BSI hat die TR-03166 v2.0 veröffentlicht – aber reicht das gegen autonome KI-Agenten?",
+        "image": "https://devmatrose.github.io/devmatrose/images/blog/biometrie-tr-03166-a-hero.png",
+        "author": {
+            "@type": "Person",
+            "name": "DEVmatrose",
+            "url": "https://github.com/DEVmatrose"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "DEVmatrose",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://devmatrose.github.io/devmatrose/images/logo.png"
+            }
+        },
+        "datePublished": "2026-02-09",
+        "dateModified": "2026-02-09",
+        "description": "Warum klassische Biometrie gegen autonome KI-Angreifer neu gedacht werden muss: Moving Target Defense, Continuous Authentication und Hardware-Binding als Antwort auf die TR-03166.",
+        "articleSection": "Security & KI",
+        "keywords": ["Biometrie", "Security", "KI-Sicherheit", "TR-03166", "BSI", "Authentication", "Deepfakes"],
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a"
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>Biometrie-Sicherheit: TR-03166-A</h1>
+        <p class="subtitle">Wenn der KI-Agent an die Reling klopft</p>
+        
+        <div class="loading"></div>
+        
+        <div class="meta-info">
+            <p><strong class="author">DEVmatrose</strong></p>
+            <p>📅 9. Februar 2026 • ⏱️ 10 min Lesezeit</p>
+            <p>🔐 Security & KI</p>
+        </div>
+        
+        <p class="redirect-text">
+            Sie werden automatisch zur interaktiven Version weitergeleitet...<br>
+            Falls nicht, <a href="https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a">klicken Sie hier</a>.
+        </p>
+    </div>
+    
+    <script>
+        setTimeout(function() {
+            window.location.href = 'https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a';
+        }, 1000);
+    </script>
+    
+    <noscript>
+        <div style="text-align: center; padding: 40px;">
+            <p>Bitte aktivieren Sie JavaScript oder klicken Sie <a href="https://devmatrose.github.io/devmatrose/#/blog/biometrie-sicherheit-tr-03166-a">hier</a>.</p>
+        </div>
+    </noscript>
+</body>
+</html>
