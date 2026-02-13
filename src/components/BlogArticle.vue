@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'mesh-netzwerk-dezentrale-ki',
+    title: 'Von Königen, Kutschen und KI: Warum die Zukunft ein Mesh-Netzwerk braucht',
+    excerpt: 'Technischer Fortschritt führt zur Zentralisierung – aber dezentrale Mesh-Netzwerke und autonome Agenten können das ändern.',
+    metaDescription: 'Warum wir ein dezentrales Mesh-Netzwerk für KI brauchen: Über Thermodynamik als neue Währung, träge Menschen und fleißige Agenten, und das CLAW-NETZWERK.',
+    image: '/images/blog/mesh-netzwerk.png',
+    author: 'Alexander Friedland (@ogerly)',
+    date: '2026-02-13',
+    tags: ['Mesh-Netzwerk', 'Dezentralisierung', 'Multi-Agent-Systeme', 'CLAW-NETZWERK', 'Thermodynamik'],
+    component: '13-02-26-Mesh-Netzwerk-Dezentrale-KI'
+  },
+  {
     slug: 'ordo-ab-chao-agenten-mesh-netzwerk',
     title: 'Ordo ab Chao: Warum deine Agenten-Netzwerke den Sturm brauchen',
     excerpt: 'Ordnung im Chaos: Wie Mesh-Netzwerke aus Unordnung emergente Intelligenz erzeugen.',
@@ -127,6 +138,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '13-02-26-Mesh-Netzwerk-Dezentrale-KI': defineAsyncComponent(() => 
+    import('./blog/article/13-02-26-Mesh-Netzwerk-Dezentrale-KI.vue')
+  ),
   '02-12-25-Vom-Code-zum-Architekten': defineAsyncComponent(() => 
     import('./blog/article/02-12-25-Vom-Code-zum-Architekten.vue')
   ),

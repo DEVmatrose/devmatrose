@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "mesh-netzwerk-dezentrale-ki",
+      "title": "Von Königen, Kutschen und KI: Warum die Zukunft ein Mesh-Netzwerk braucht",
+      "slug": "mesh-netzwerk-dezentrale-ki",
+      "date": "2026-02-13",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Technischer Fortschritt führt zur Zentralisierung – aber dezentrale Mesh-Netzwerke und autonome Agenten können das ändern.",
+      "category": "Architecture & Society",
+      "tags": ["Mesh-Netzwerk", "Dezentralisierung", "Multi-Agent-Systeme", "CLAW-NETZWERK", "Thermodynamik", "KI-Souveränität"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/mesh-netzwerk.png",
+      "imageAlt": "Von Königen, Kutschen und KI – Das Mesh-Netzwerk der Zukunft",
+      "metaDescription": "Warum wir ein dezentrales Mesh-Netzwerk für KI brauchen: Über Thermodynamik als neue Währung, träge Menschen und fleißige Agenten, und das CLAW-NETZWERK.",
+      "component": "13-02-26-Mesh-Netzwerk-Dezentrale-KI",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Von Königen und KI: Warum die Zukunft dezentral ist",
+          "hashtags": ["AI", "MeshNetwork", "Decentralization", "MultiAgentSystems", "CLAW"]
+        },
+        "twitter": {
+          "title": "👑 Von Königen, Kutschen und KI: Die Macht gehört ins Mesh-Netzwerk",
+          "hashtags": ["AI", "Decentralized", "MeshNetwork", "CLAW"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Warum die Zukunft ein dezentrales Mesh-Netzwerk braucht 🌊",
+          "hashtags": ["ai", "mesh", "decentralization", "claw", "developer"]
+        }
+      }
+    },
+    {
       "id": "ordo-ab-chao-agenten-mesh-netzwerk",
       "title": "Ordo ab Chao: Warum deine Agenten-Netzwerke den Sturm brauchen",
       "slug": "ordo-ab-chao-agenten-mesh-netzwerk",
