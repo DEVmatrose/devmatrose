@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "kontinente-der-intelligenz",
+      "title": "Kontinente der Intelligenz: Wie sich die Welt in KI-Ökosysteme aufteilt",
+      "slug": "kontinente-der-intelligenz",
+      "date": "2026-02-14",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Wir erleben eine tektonische Verschiebung: Kontinente bilden eigene KI-Identitäten aus. Von US-Hyperscalern über Chinas koordinierte Intelligenz bis zu Europas Open-Source-Werkbank.",
+      "category": "Geopolitik & KI",
+      "tags": ["Geopolitik", "KI-Ökosysteme", "Open Source", "Dezentralisierung", "Europa", "KI-Souveränität"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/kontitent-der-intelligenz.png",
+      "imageAlt": "Kontinente der Intelligenz – Wie sich die Welt in KI-Ökosysteme aufteilt",
+      "metaDescription": "Wie sich die Welt in KI-Ökosysteme aufteilt: USA als Infrastruktur-Imperium, Chinas koordinierte Intelligenz, Europas Open-Source-Werkbank und die unterschätzten Räume Afrikas und Südamerikas.",
+      "component": "14-02-26-Kontinente-Der-Intelligenz",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Kontinente der Intelligenz: Die neue geopolitische KI-Landkarte",
+          "hashtags": ["AI", "Geopolitics", "OpenSource", "Europe", "TechSovereignty"]
+        },
+        "twitter": {
+          "title": "🌍 Kontinente der Intelligenz: Wie sich die Welt in KI-Ökosysteme aufteilt",
+          "hashtags": ["AI", "Geopolitics", "OpenSource", "KI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Kontinente der Intelligenz – Die neue KI-Weltordnung 🌍",
+          "hashtags": ["ai", "geopolitics", "opensource", "europe", "developer"]
+        }
+      }
+    },
+    {
       "id": "mesh-netzwerk-dezentrale-ki",
       "title": "Von Königen, Kutschen und KI: Warum die Zukunft ein Mesh-Netzwerk braucht",
       "slug": "mesh-netzwerk-dezentrale-ki",

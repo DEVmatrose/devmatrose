@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'kontinente-der-intelligenz',
+    title: 'Kontinente der Intelligenz: Wie sich die Welt in KI-Ökosysteme aufteilt',
+    excerpt: 'Wir erleben eine tektonische Verschiebung: Kontinente bilden eigene KI-Identitäten aus.',
+    metaDescription: 'Wie sich die Welt in KI-Ökosysteme aufteilt: USA als Infrastruktur-Imperium, Chinas koordinierte Intelligenz, Europas Open-Source-Werkbank.',
+    image: '/images/blog/kontitent-der-intelligenz.png',
+    author: 'Alexander Friedland (@ogerly)',
+    date: '2026-02-14',
+    tags: ['Geopolitik', 'KI-Ökosysteme', 'Open Source', 'Dezentralisierung', 'Europa', 'KI-Souveränität'],
+    component: '14-02-26-Kontinente-Der-Intelligenz'
+  },
+  {
     slug: 'mesh-netzwerk-dezentrale-ki',
     title: 'Von Königen, Kutschen und KI: Warum die Zukunft ein Mesh-Netzwerk braucht',
     excerpt: 'Technischer Fortschritt führt zur Zentralisierung – aber dezentrale Mesh-Netzwerke und autonome Agenten können das ändern.',
@@ -138,6 +149,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '14-02-26-Kontinente-Der-Intelligenz': defineAsyncComponent(() => 
+    import('./blog/article/14-02-26-Kontinente-Der-Intelligenz.vue')
+  ),
   '13-02-26-Mesh-Netzwerk-Dezentrale-KI': defineAsyncComponent(() => 
     import('./blog/article/13-02-26-Mesh-Netzwerk-Dezentrale-KI.vue')
   ),
