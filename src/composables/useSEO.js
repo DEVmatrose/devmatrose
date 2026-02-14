@@ -68,8 +68,10 @@ export function useSEO(options) {
     ogTitle: fullTitle,
     ogDescription: description,
     ogImage: imageUrl,
+    ogImageSecureUrl: imageUrl,
     ogImageWidth: 1200,
     ogImageHeight: 630,
+    ogImageAlt: fullTitle,
     ogUrl: pageUrl,
     ogType: options.type || 'website',
     ogSiteName: 'DEVmatrose',
@@ -82,6 +84,7 @@ export function useSEO(options) {
     twitterTitle: fullTitle,
     twitterDescription: description,
     twitterImage: imageUrl,
+    twitterImageAlt: fullTitle,
     
     // Artikel-spezifische Tags
     ...(options.type === 'article' && {

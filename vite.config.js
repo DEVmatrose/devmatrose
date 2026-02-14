@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'kontinente-der-intelligenz',
   'mesh-netzwerk-dezentrale-ki',
   'ordo-ab-chao-agenten-mesh-netzwerk',
   'biometrie-sicherheit-tr-03166-a',
