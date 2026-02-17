@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "von-code-zu-kontext-agenten-navigation",
+      "title": "Von Code zu Kontext: Wie ich Agenten-Teams das \u201ENavigieren\u201C in Repositories beibringe",
+      "slug": "von-code-zu-kontext-agenten-navigation",
+      "date": "2026-02-17",
+      "author": "Alexander Friedland (@ogerly)",
+      "excerpt": "Ein Deep-Dive in die Architektur von Multi-Agent-Systemen: Von der Vision des Repository-Skills über die harten Lektionen bis zu drei Säulen für robuste Agenten.",
+      "category": "Multi-Agent-Systeme",
+      "tags": ["Multi-Agent-Systeme", "Repository-Navigation", "Event-Sourcing", "State-Machine", "KI-Orchestration", "Workpapers"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/agenten-im-repro.png",
+      "imageAlt": "Von Code zu Kontext – Agenten-Teams navigieren in Repositories",
+      "metaDescription": "Wie ich KI-Agenten-Teams das Navigieren in Repositories beibringe: Dateisignaturen statt Ordnernamen, Event-Sourcing als Blackbox und State-Machines als Leitplanken.",
+      "component": "17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Von Code zu Kontext: Repository-Navigation für KI-Agenten",
+          "hashtags": ["AI", "MultiAgentSystems", "EventSourcing", "SoftwareArchitecture", "KI"]
+        },
+        "twitter": {
+          "title": "🧭 Von Code zu Kontext: Wie Agenten-Teams Repositories navigieren",
+          "hashtags": ["AI", "MultiAgent", "EventSourcing", "DevOps"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Wie KI-Agenten Repositories verstehen lernen 🧭",
+          "hashtags": ["ai", "multiagent", "eventsourcing", "architecture", "developer"]
+        }
+      }
+    },
+    {
       "id": "kontinente-der-intelligenz",
       "title": "Kontinente der Intelligenz: Wie sich die Welt in KI-Ökosysteme aufteilt",
       "slug": "kontinente-der-intelligenz",
