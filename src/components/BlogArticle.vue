@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'von-code-zu-kontext-agenten-navigation',
+    title: 'Von Code zu Kontext: Wie ich Agenten-Teams das \u201ENavigieren\u201C in Repositories beibringe',
+    excerpt: 'Ein Deep-Dive in die Architektur von Multi-Agent-Systemen: Von der Vision des Repository-Skills über die harten Lektionen bis zu drei Säulen für robuste Agenten.',
+    metaDescription: 'Wie ich KI-Agenten-Teams das Navigieren in Repositories beibringe: Dateisignaturen statt Ordnernamen, Event-Sourcing als Blackbox und State-Machines als Leitplanken.',
+    image: '/images/blog/agenten-im-repro.png',
+    author: 'Alexander Friedland (@ogerly)',
+    date: '2026-02-17',
+    tags: ['Multi-Agent-Systeme', 'Repository-Navigation', 'Event-Sourcing', 'State-Machine', 'KI-Orchestration', 'Workpapers'],
+    component: '17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation'
+  },
+  {
     slug: 'kontinente-der-intelligenz',
     title: 'Kontinente der Intelligenz: Wie sich die Welt in KI-Ökosysteme aufteilt',
     excerpt: 'Wir erleben eine tektonische Verschiebung: Kontinente bilden eigene KI-Identitäten aus.',
@@ -149,6 +160,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation': defineAsyncComponent(() => 
+    import('./blog/article/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation.vue')
+  ),
   '14-02-26-Kontinente-Der-Intelligenz': defineAsyncComponent(() => 
     import('./blog/article/14-02-26-Kontinente-Der-Intelligenz.vue')
   ),
