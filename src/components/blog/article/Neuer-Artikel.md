@@ -1,72 +1,96 @@
-# Warum ich das Rad neu erfunden habe: Die Entstehung eines spezialisierten LLM-Tools
-**Oder: Wenn Standard-Software an der Realität sensibler Daten scheitert.**
+# Vorlage für neue Blog-Artikel – DEVmatrose
 
-Als Entwickler lernt man eine goldene Regel sehr früh: *"Don't reinvent the wheel."* Nutze existierende Libraries, Frameworks und Tools. Warum etwas bauen, das es schon gibt?
+> **Diese Datei ist eine Checkliste und Vorlage.**  
+> Sie dient als Leitfaden, damit beim Erstellen eines neuen Artikels nichts vergessen wird.
 
-Seit zehn Monaten entwickle ich als **Devmatrose** ein komplexes Ökosystem für einen Kunden. In diesem Prozess stießen wir auf eine Hürde, die mit Standard-Lösungen nicht zu nehmen war: Das Training eines spezialisierten KI-Modells (LLM) mit hochsensiblen Daten.
+---
 
-Dieser Artikel ist ein Einblick in meinen Denkprozess, warum ich mich gegen den Marktstandard und für eine Eigenentwicklung entschieden habe – und warum „On-Premise“ in der KI-Entwicklung oft der einzige gangbare Weg ist.
+## Checkliste: Neuen Blog-Artikel anlegen
 
-## Die Ausgangslage: Ein Dilemma in drei Akten
+### 1. Artikeldaten festlegen
+- [ ] **Slug** bestimmen (URL-freundlich, Kleinbuchstaben, Bindestriche): z.B. `mein-neuer-artikel`
+- [ ] **Datums-Prefix** für Dateinamen: `TT-MM-JJ` z.B. `17-02-26`
+- [ ] **Komponentenname**: `TT-MM-JJ-Mein-Neuer-Artikel` (PascalCase nach Datum)
+- [ ] **Titel**, **Excerpt**, **Meta-Description**, **Tags**, **Kategorie**, **Lesezeit**
+- [ ] **Hero-Bild** erstellen/beschaffen (mind. 1200x630px für Social Media)
 
-Wir brauchten ein Werkzeug, um Daten zu labeln und zu validieren. Das klingt trivial. Es gibt Dutzende Tools dafür (Label Studio, Prodigy, Scale AI, etc.). Doch bei genauerer Betrachtung der Anforderungen fiel das Kartenhaus der Standard-Lösungen zusammen.
+### 2. Dateien erstellen/ändern (7 Stellen!)
 
-**1. Das Datenschutz-Paradoxon**
-Die Datenbasis bestand aus sensiblen, vertraulichen Informationen (vergleichbar mit medizinischen oder psychologischen Akten).
-* **Markt-Lösung:** Die meisten nutzerfreundlichen Tools sind Cloud-basiert.
-* **Das Problem:** Ein Upload dieser Daten auf fremde Server (oft in den USA) war kategorisch ausgeschlossen. [cite_start]Wir brauchten eine Lösung, die zu 100 % lokal, offline und im eigenen Netzwerk läuft – ohne "nach Hause zu telefonieren". [cite: 2, 9]
+#### A) Vue-Artikel-Komponente erstellen
+- [ ] `src/components/blog/article/TT-MM-JJ-Mein-Neuer-Artikel.vue`  
+  → Struktur von bestehenden Artikeln kopieren (Hero, Breadcrumb, Tags, Content, SEO)
 
-**2. Der Faktor Mensch (Expertise vs. Technik)**
-Wer validiert die Daten? In unserem Fall waren es keine Data Scientists oder Entwickler, sondern Fachexperten (Domänen-Experten).
-* **Markt-Lösung:** Lokale Open-Source-Tools sind oft mächtig, aber "roh". Sie erwarten oft, dass der Nutzer JSON lesen kann oder Konfigurationsdateien versteht.
-* [cite_start]**Das Problem:** Setzt man einem Fachexperten (z.B. einem Psychologen oder Anwalt) ein rohes JSON-Objekt vor, sinkt die Arbeitsqualität und die Frustration steigt. [cite: 2, 7]
+#### B) Statische SEO-HTML erstellen (für Social-Media-Crawler)
+- [ ] `public/blog-mein-neuer-artikel.html`  
+  → Redirect-Seite mit allen Meta-Tags (OG, Twitter, JSON-LD)  
+  → **Vorschaubild-URL korrekt setzen** für og:image, twitter:image, etc.
 
-**3. Die Komplexität des Kontextes**
-Standard-Tools labeln oft linear: "Ist das Bild eine Katze? Ja/Nein." Unsere Anforderungen waren multidimensional. [cite_start]Ein Datensatz musste aus technischer, fachlicher und ethischer Sicht bewertet werden – oft von unterschiedlichen Personen. [cite: 2, 6]
+#### C) blog-metadata.json aktualisieren
+- [ ] `public/data/blog-metadata.json`  
+  → Neuen Eintrag **als erstes Element** im `posts`-Array einfügen  
+  → Felder: id, title, slug, date, author, excerpt, category, tags, readTime, featured, image, imageAlt, metaDescription, component, socialMedia
 
-## Der Lösungsansatz: Der "Smart Editor" und die Säulen-Architektur
+#### D) BlogTab.vue registrieren
+- [ ] `src/components/BlogTab.vue`  
+  → Import des neuen Komponenten hinzufügen  
+  → In `articleComponents`-Mapping eintragen (als erstes Element)
 
-Da kein Tool diese Kombination aus **lokaler Sicherheit** und **fachlicher Usability** bot, habe ich es konzipiert. Der Ansatz basiert auf zwei Kernideen, die ich gerne als Inspiration teilen möchte.
+#### E) BlogArticle.vue registrieren
+- [ ] `src/components/BlogArticle.vue`  
+  → In `blogPosts`-Array als erstes Element eintragen  
+  → In `articleComponents`-Mapping mit `defineAsyncComponent` eintragen
 
-### 1. Die Tab-Architektur (Säulen-Prinzip)
-Statt alle Informationen in eine unübersichtliche Maske zu pressen, habe ich das Tool modular aufgebaut. [cite_start]Wir trennen die verschiedenen Dimensionen der Validierung in "Tabs" (Reiter) auf. [cite: 6]
+#### F) ⚠️ vite.config.js – SSG-Slug eintragen!
+- [ ] `vite.config.js` → `blogSlugs`-Array  
+  → **Den Slug des neuen Artikels hinzufügen!**  
+  → Ohne diesen Schritt wird die Seite unter `/blog/slug` **nicht pre-gerendert** und ist **404**!
 
-* **Der technische Tab:** Hier sieht der Admin die Rohdaten.
-* **Der fachliche Tab:** Hier sieht der Domänen-Experte nur das, was für ihn relevant ist.
-* **Der Validierungs-Tab:** Hier wird nach dem Vier-Augen-Prinzip geprüft.
+#### G) Hero-Bild ablegen
+- [ ] `public/images/blog/mein-bild.png` (für Dev-Server + wird beim Build nach docs/ kopiert)
 
-Diese Architektur erlaubt es, das Tool für völlig verschiedene Branchen anzupassen, ohne den Kern neu zu schreiben. Heute validieren wir psychologische Muster, morgen vielleicht juristische Texte – das Framework bleibt gleich, nur der "Tab" ändert sich.
+### 3. Build & Verify
+- [ ] `npm run build` ausführen (generiert SSG-HTML in `docs/blog/`)
+- [ ] Prüfen dass `docs/blog/mein-neuer-artikel.html` existiert
+- [ ] Lokal testen: `npm run preview`
+- [ ] Commit & Push
 
-### 2. Der Übersetzer (Smart Editor)
-Die größte Hürde für nicht-technische Nutzer ist das Datenformat. Mein Tool fungiert als Echtzeit-Übersetzer.
-Im Hintergrund arbeitet die KI mit komplexen JSON-Strukturen. Das Tool parst diese Strukturen und generiert daraus dynamisch eine verständliche Benutzeroberfläche (UI).
+### 4. Nach dem Deploy prüfen
+- [ ] Direkt-URL funktioniert: `https://devmatrose.github.io/devmatrose/blog/mein-neuer-artikel`
+- [ ] Hash-URL funktioniert: `https://devmatrose.github.io/devmatrose/#/blog/mein-neuer-artikel`
+- [ ] Social-Media-Preview testen (z.B. https://www.opengraph.xyz/)
 
-* Aus einem Array im Code wird eine Tag-Liste.
-* Aus einem Boolean-Wert wird eine einfache Checkbox.
-* Aus einem Score wird ein Schieberegler.
+---
 
-Der Experte füllt ein Formular aus – das Tool schreibt den Code. [cite_start]So erhalten wir saubere Trainingsdaten für die KI, ohne dass der Experte je eine geschweifte Klammer `{}` sehen muss. [cite: 7]
+## Dateinamen-Konvention
 
-## Warum das wichtig ist (Lessons Learned)
+| Datei | Beispiel |
+|-------|---------|
+| Vue-Komponente | `src/components/blog/article/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation.vue` |
+| Static HTML | `public/blog-von-code-zu-kontext-agenten-navigation.html` |
+| Hero-Bild | `public/images/blog/agenten-im-repro.png` |
+| SSG-Output | `docs/blog/von-code-zu-kontext-agenten-navigation.html` (automatisch) |
 
-In der KI-Entwicklung konzentrieren wir uns oft zu sehr auf Modelle und GPUs. Aber die Qualität der Daten – und damit die Qualität der menschlichen Arbeit, die in diese Daten fließt – ist der wahre Flaschenhals.
+---
 
-Als Entwickler und Architekt (Devmatrose) war meine Erkenntnis: **Manchmal ist die beste "Tech-Lösung" diejenige, die die Technik vor dem Nutzer versteckt.**
+## Häufige Fehler
 
-Indem wir eine maßgeschneiderte Lösung gebaut haben, konnten wir:
-1.  [cite_start]Die Datenhoheit komplett beim Kunden behalten (On-Premise). [cite: 9]
-2.  [cite_start]Die Fehlerrate bei der Validierung drastisch senken. [cite: 8]
-3.  Experten befähigen, mit KI zu arbeiten, ohne Programmierer zu sein.
+| Problem | Ursache |
+|---------|---------|
+| **404 auf `/blog/slug`** | Slug fehlt in `vite.config.js` → `blogSlugs` |
+| Artikel erscheint nicht in Liste | Eintrag fehlt in `blog-metadata.json` |
+| Klick auf Artikel zeigt weiße Seite | Komponente nicht in `BlogTab.vue` oder `BlogArticle.vue` registriert |
+| Kein Social-Media-Preview | `public/blog-slug.html` fehlt oder Bild-URL falsch |
 
-## Demo & Ausblick
+---
 
-Die volle Version dieses Tools ist tief in die Prozesse meines Kunden integriert und enthält spezifisches Know-how, das nicht öffentlich ist.
+## Zusammenfassung: Diese 7 Dateien müssen angefasst werden
 
-Aber der **architektonische Ansatz** – die Idee des modularen, lokalen Smart Editors – ist zu wertvoll, um ihn nicht zu teilen. Ich werde in den kommenden Tagen eine **abgespeckte Demo-Version** auf GitHub veröffentlichen. Sie zeigt das Prinzip der dynamischen Formular-Generierung und das Tab-System, bereinigt um die spezifische Business-Logik.
-
-Damit möchte ich zeigen, wie wir moderne Web-Technologien nutzen können, um die Lücke zwischen komplexer KI und menschlicher Expertise zu schließen.
-
-***
-
-**Über mich:**
-Ich bin Devmatrose. Ich baue digitale Ökosysteme und löse Probleme, für die es noch keinen Stack Overflow Eintrag gibt. Folgt mir hier für Updates zur Demo.
+```
+1. src/components/blog/article/TT-MM-JJ-Name.vue        ← NEU erstellen
+2. public/blog-slug.html                                  ← NEU erstellen (SEO)
+3. public/data/blog-metadata.json                         ← Eintrag hinzufügen
+4. src/components/BlogTab.vue                              ← Import + Mapping
+5. src/components/BlogArticle.vue                          ← blogPosts + Mapping
+6. vite.config.js                                          ← blogSlugs Array!
+7. public/images/blog/bild.png                             ← Hero-Bild ablegen
+```
