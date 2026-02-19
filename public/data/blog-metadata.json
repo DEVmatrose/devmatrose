@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "autonomous-agent-manifest-specification",
+      "title": "Autonomous Agent Manifest Specification",
+      "slug": "autonomous-agent-manifest-specification",
+      "date": "2026-02-19",
+      "author": "Ogerly – DEVmatrose",
+      "excerpt": "Ein Erfahrungsbericht aus einem Jahr KI-Architekturarbeit: Warum Agenten Struktur brauchen, nicht nur Prompts – und wie ein Whitepaper-Workpaper-System Ordnung in komplexe KI-Projekte bringt.",
+      "category": "KI-Architektur",
+      "tags": ["KI-Architektur", "Agenten-Manifest", "Whitepaper-Workpaper", "Kontextmanagement", "Multi-Agent-Systeme", "Open Source"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/autonomous-agent-manifest-specification.png",
+      "imageAlt": "Autonomous Agent Manifest Specification – Ordnungsrahmen für KI-Agenten-Projekte",
+      "metaDescription": "Whitepaper-Workpaper-System, Manifest-Spezifikation für Agenten und Ordnung als Architekturprinzip gegen Kontextverlust in komplexen KI-Projekten.",
+      "component": "19-02-26-Autonomous-Agent-Manifest-Specification",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Autonomous Agent Manifest Specification – Ordnung für KI-Projekte",
+          "hashtags": ["AI", "AgentManifest", "KI", "SoftwareArchitecture", "OpenSource"]
+        },
+        "twitter": {
+          "title": "📋 Autonomous Agent Manifest Specification – Ordnung für KI-Agenten-Projekte",
+          "hashtags": ["AI", "AgentManifest", "OpenSource", "KI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Autonomous Agent Manifest Specification – Struktur statt Chaos für KI-Agenten 📋",
+          "hashtags": ["ai", "agentmanifest", "opensource", "architecture", "developer"]
+        }
+      }
+    },
+    {
       "id": "von-code-zu-kontext-agenten-navigation",
       "title": "Von Code zu Kontext: Wie ich Agenten-Teams das \u201ENavigieren\u201C in Repositories beibringe",
       "slug": "von-code-zu-kontext-agenten-navigation",

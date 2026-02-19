@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'autonomous-agent-manifest-specification',
+    title: 'Autonomous Agent Manifest Specification',
+    excerpt: 'Ein Erfahrungsbericht aus einem Jahr KI-Architekturarbeit: Warum Agenten Struktur brauchen, nicht nur Prompts.',
+    metaDescription: 'Whitepaper-Workpaper-System, Manifest-Spezifikation für Agenten und Ordnung als Architekturprinzip gegen Kontextverlust in komplexen KI-Projekten.',
+    image: '/images/blog/autonomous-agent-manifest-specification.png',
+    author: 'Ogerly – DEVmatrose',
+    date: '2026-02-19',
+    tags: ['KI-Architektur', 'Agenten-Manifest', 'Whitepaper-Workpaper', 'Kontextmanagement', 'Multi-Agent-Systeme', 'Open Source'],
+    component: '19-02-26-Autonomous-Agent-Manifest-Specification'
+  },
+  {
     slug: 'von-code-zu-kontext-agenten-navigation',
     title: 'Von Code zu Kontext: Wie ich Agenten-Teams das \u201ENavigieren\u201C in Repositories beibringe',
     excerpt: 'Ein Deep-Dive in die Architektur von Multi-Agent-Systemen: Von der Vision des Repository-Skills über die harten Lektionen bis zu drei Säulen für robuste Agenten.',
@@ -160,6 +171,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '19-02-26-Autonomous-Agent-Manifest-Specification': defineAsyncComponent(() => 
+    import('./blog/article/19-02-26-Autonomous-Agent-Manifest-Specification.vue')
+  ),
   '17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation': defineAsyncComponent(() => 
     import('./blog/article/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation.vue')
   ),
