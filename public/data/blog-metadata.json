@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "epistemische-krise-der-softwareentwicklung",
+      "title": "Die epistemische Krise der Softwareentwicklung",
+      "slug": "epistemische-krise-der-softwareentwicklung",
+      "date": "2026-02-24",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "Chaos, History und die Zukunft autonomer Agenten: Warum Provenienz wichtiger wird als Code und wieso Chaos immer \u00dcbergang ist, nicht Endzustand.",
+      "category": "Philosophie & Architektur",
+      "tags": ["Epistemologie", "KI-Architektur", "Provenienz", "Agenten-Systeme", "Software-Philosophie", "Memory-Architekturen"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/epistemische-kriese.png",
+      "imageAlt": "Die epistemische Krise der Softwareentwicklung \u2013 Chaos, History und autonome Agenten",
+      "metaDescription": "Warum Provenienz wichtiger wird als Code: \u00dcber Hyperkomplexit\u00e4t, Memory-Architekturen und die tektonische Verschiebung in der Softwareentwicklung.",
+      "component": "24-02-26-Epistemische-Krise-Der-Softwareentwicklung",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Die epistemische Krise der Softwareentwicklung \u2013 Chaos, History und autonome Agenten",
+          "hashtags": ["AI", "SoftwareArchitecture", "Provenance", "KI", "Philosophy"]
+        },
+        "twitter": {
+          "title": "\ud83e\udde0 Die epistemische Krise der Softwareentwicklung",
+          "hashtags": ["AI", "Provenance", "SoftwarePhilosophy", "KI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Die epistemische Krise der Softwareentwicklung \ud83e\udde0",
+          "hashtags": ["ai", "provenance", "philosophy", "architecture", "developer"]
+        }
+      }
+    },
+    {
       "id": "autonomous-agent-manifest-specification",
       "title": "Autonomous Agent Manifest Specification",
       "slug": "autonomous-agent-manifest-specification",

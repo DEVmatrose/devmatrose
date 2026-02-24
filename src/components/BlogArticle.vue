@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'epistemische-krise-der-softwareentwicklung',
+    title: 'Die epistemische Krise der Softwareentwicklung',
+    excerpt: 'Chaos, History und die Zukunft autonomer Agenten: Warum Provenienz wichtiger wird als Code.',
+    metaDescription: 'Warum Provenienz wichtiger wird als Code: Über Hyperkomplexität, Memory-Architekturen und die tektonische Verschiebung in der Softwareentwicklung.',
+    image: '/images/blog/epistemische-kriese.png',
+    author: 'Ogerly \u2013 DEVmatrose',
+    date: '2026-02-24',
+    tags: ['Epistemologie', 'KI-Architektur', 'Provenienz', 'Agenten-Systeme', 'Software-Philosophie', 'Memory-Architekturen'],
+    component: '24-02-26-Epistemische-Krise-Der-Softwareentwicklung'
+  },
+  {
     slug: 'autonomous-agent-manifest-specification',
     title: 'Autonomous Agent Manifest Specification',
     excerpt: 'Ein Erfahrungsbericht aus einem Jahr KI-Architekturarbeit: Warum Agenten Struktur brauchen, nicht nur Prompts.',
@@ -171,6 +182,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '24-02-26-Epistemische-Krise-Der-Softwareentwicklung': defineAsyncComponent(() => 
+    import('./blog/article/24-02-26-Epistemische-Krise-Der-Softwareentwicklung.vue')
+  ),
   '19-02-26-Autonomous-Agent-Manifest-Specification': defineAsyncComponent(() => 
     import('./blog/article/19-02-26-Autonomous-Agent-Manifest-Specification.vue')
   ),

@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'epistemische-krise-der-softwareentwicklung',
   'autonomous-agent-manifest-specification',
   'von-code-zu-kontext-agenten-navigation',
   'kontinente-der-intelligenz',
