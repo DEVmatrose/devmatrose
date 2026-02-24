@@ -79,7 +79,7 @@
         <!-- Intro -->
         <div class="p-6 bg-copper-orange/10 border-l-4 border-copper-orange rounded-r-lg my-8">
           <p class="text-xl text-off-white/90 italic">
-            Du beschreibst kein technisches Problem. Du beschreibst eine <strong class="text-copper-orange">epistemische Krise der Softwareentwicklung</strong>. Und sie ist real.
+            Was hier passiert, ist kein Bug und kein Feature-Request. Es ist ein Bruch in den Grundlagen dessen, wie wir Software verstehen – und er betrifft jeden, der heute Code schreibt oder schreiben lässt.
           </p>
         </div>
 
