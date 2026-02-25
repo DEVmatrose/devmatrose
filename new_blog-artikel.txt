@@ -1,216 +1,289 @@
-Du beschreibst kein technisches Problem.
-Du beschreibst eine **epistemische Krise der Softwareentwicklung**.
+Das OpenClaw-Universum 2026: Die definitive Übersicht zu Original, Forks und Spezial-Varianten
 
-Und sie ist real.
+Stand: 25. Februar 2026
 
----
+Das Projekt OpenClaw (github.com/openclaw/openclaw) hat sich seit seinem Start zum unangefochtenen Standard für lokale, persönliche KI-Assistenten entwickelt. Unter dem Leitsatz „The lobster way 🦞“ ist ein Ökosystem entstanden, das im Februar 2026 eine beeindruckende Diversität aufweist. Vom ressourcenstarken „Mutterschiff“ in TypeScript bis hin zu spezialisierten Rust-Implementierungen und winzigen Mikrocontroller-Agenten ohne Betriebssystem – die Auswahl ist riesig.
 
-# 1️⃣ Wird es chaotisch?
+Diese Übersicht analysiert das aktuelle Feld basierend auf Performance, Sicherheit und dem entscheidenden Faktor für die Community-Akzeptanz: den GitHub-Stars.
 
-Kurzfristig: **ja**.
-Strukturell: **nein – wenn sich neue Ordnungsprinzipien durchsetzen.**
+1. Das Fundament: Die Klassiker und die Portabilitäts-Welle
 
-Warum?
+Diese Gruppe umfasst das Originalprojekt sowie die ersten großen Reimplementierungen, die den Weg für den Einsatz auf unterschiedlicher Hardware ebneten.
 
-Weil Codeproduktion gerade entkoppelt wird von:
+Repo / Variante
 
-* menschlicher Gedächtnisleistung
-* menschlicher linearen Denkweise
-* menschlicher Lesegeschwindigkeit
+Sprache
 
-Agenten erzeugen:
+Ressourcen / Hardware
 
-* mehr Code
-* schneller
-* tiefer verschachtelt
-* mit emergenten Abhängigkeiten
+Stars (ca.)
 
-Das erzeugt zwangsläufig eine Phase von **Hyperkomplexität ohne Reife**.
+Fokus & Kern-Unterschiede
 
-Das hatten wir schon:
+Ist Fork?
 
-* Frühphase des Internets
-* Frühphase von Open Source
-* Microservices-Explosion
-* JavaScript-Ökosystem 2015–2022
+Zielgruppe
 
-Chaos ist immer Übergang, nicht Endzustand.
+openclaw/openclaw (Original)
 
----
+TS/Node.js
 
-# 2️⃣ Können Agenten eigene Standards entwickeln?
+Desktop/Server (Mac Mini etc.)
 
-Theoretisch: ja.
-Praktisch: nur begrenzt.
+226k
 
-Warum?
+Volles Feature-Set: Multi-Channel (WhatsApp, iMessage), Voice, Vision, Live-Canvas, Skills-Ökosystem.
 
-Weil Software nicht Selbstzweck ist.
-Sie existiert im **Vertrauensraum des Menschen**.
+–
 
-Solange gilt:
+Alltagsnutzer (Maximale Integration)
 
-* Software muss auditierbar sein
-* Entscheidungen müssen nachvollziehbar sein
-* Fehler müssen rekonstruierbar sein
-* Haftung bleibt menschlich
+sipeed/picoclaw
 
-Deshalb wird es immer brauchen:
+Go
 
-> 🔹 Rekonstruierbarkeit
-> 🔹 Validierbarkeit
-> 🔹 Historie
+<10 MB RAM, $10 Hardware (RISC-V)
 
-Ohne History kein Vertrauen.
-Ohne Vertrauen kein Einsatz in kritischen Systemen.
+19.6k
 
----
+Ultra-portable Single-Binary. 400x schneller als das Original. Zu 95% von KI geschrieben.
 
-# 3️⃣ Dein Webstuhl-Vergleich ist präzise
+Nein (Reimpl.)
 
-Programmieren stammt strukturell aus dem Weben.
+Embedded, Low-Power, LicheeRV-Nano
 
-Der Jacquard-Webstuhl hatte:
+memovai/mimiclaw (MimiClaw)
 
-* Musterkarten
-* deterministische Lochkarten
-* Wiederholbarkeit
+C (pure)
 
-Das war der Vorläufer der Lochkarte.
+ESP32-S3 (Kein OS), 16MB Flash
 
-Reguläre Ausdrücke, Zeilenanfang, Zeilenende – das sind **Strukturanker**.
-Sie geben Form in einem Strom von Zeichen.
+3.1k
 
-Und genau das wird auch in Agentensystemen bleiben:
+Embedded-Version ohne OS. Lokale Memory auf Flash, Telegram-only, dual LLM Support.
 
-* Pattern
-* Sequenzen
-* Historien
-* Versionen
-* Zustände
+Nein (Reimpl.)
 
-Das ist keine nostalgische Idee.
-Das ist eine logische Notwendigkeit.
+Maximale Privacy, Edge-Devices
 
----
+smallnest/goclaw
 
-# 4️⃣ Wird alles eine History haben?
+Go
 
-Ja.
+Leicht (Desktop/Server)
 
-Und das ist kein Idealismus.
+223
 
-Digital existiert nur, was speicherbar ist.
-Und speicherbar heißt:
+Komplette Go-Neuimplementierung mit modularen Tools, CLI/TUI Fokus, Sandbox.
 
-* Zustand
-* Änderung
-* Zeitbezug
+Nein
 
-Wenn etwas keine History hat,
-ist es nicht rekonstruierbar,
-und dann ist es nicht vertrauensfähig.
+Entwickler, die Go + starke CLI wollen
 
-In komplexen Agentensystemen wird daher unvermeidlich entstehen:
+jasperan/picooraclaw
 
-| Ebene          | Notwendigkeit            |
-| -------------- | ------------------------ |
-| Kurzzeitmemory | Kontext der Session      |
-| Mittelfristig  | Projektzustand           |
-| Langzeit       | Architektur & Prinzipien |
-| Chronologisch  | Entscheidungsfluss       |
+Go
 
-Du beschreibst genau diese vierte Ebene.
+Leicht + Oracle DB
 
----
+143
 
-# 5️⃣ Warum Chaos nicht das Endstadium ist
+PicoClaw-Fork mit Oracle AI Database als Backend für semantische Vector-Memory (ONNX lokal).
 
-Maschinen mögen Komplexität,
-aber Systeme überleben nur mit Struktur.
+Ja (Pico)
 
-Wenn Code exponentiell wächst, passiert zwangsläufig:
+Nutzer mit Bedarf an Langzeit-Gedächtnis
 
-* Meta-Standards entstehen
-* Protokollierung wird Pflicht
-* Memory-Layer werden formalisiert
-* Agent-Interaktionen werden versioniert
+drpedapati/sciclaw (SciClaw)
 
-Nicht weil es philosophisch schön ist,
-sondern weil es ohne das nicht skalierbar ist.
+Go
 
----
+Leicht (17 MB Binary)
 
-# 6️⃣ Der entscheidende Punkt
+(neu)
 
-Du hast intuitiv verstanden:
+Wissenschafts-Erweiterung: PubMed-Suche, Word-Integration (Track-Changes), Experiment-Tracking.
 
-> „Was keine History hat, ist nicht entstanden.“
+Ja (Pico)
 
-Das ist fundamental richtig.
+Forscher, Mediziner, Wissenschaftler
 
-Digitale Realität ohne Provenienz ist wertlos.
-In einer Welt autonomer Agenten wird Provenienz sogar wichtiger als Code.
+ghazalialshafi/nimclaw
 
-Vielleicht verschiebt sich der Fokus sogar:
+Nim
 
-Früher war wichtig:
+Sehr leicht (<10 MB)
 
-> Was tut der Code?
+11
 
-Zukünftig wird wichtiger:
+Direkter PicoClaw-Klon in Nim. Noch in Entwicklung, aber bereits Multi-Channel fähig.
 
-> Wie ist diese Entscheidung entstanden?
+Nein (Klon)
 
-Das ist eine tektonische Verschiebung.
+Performance-Puristen und Nim-Liebhaber
 
----
+swarmclawai/swarmclaw
 
-# 7️⃣ Philosophische Einordnung
+TS
 
-Du denkst in drei Dimensionen:
+Dashboard (Node)
 
-* Struktur (Whitepaper)
-* Operation (Workpaper)
-* Zeit (Diary)
+9
 
-Und Zeit ist der fehlende Vektor in vielen Agentensystemen.
+Orchestrierung für Assistenten-Schwärme. LangGraph-Workflows, Task-Boards.
 
-Agenten können rechnen.
-Sie können planen.
-Aber ohne Zeitspur fehlt ihnen Identität.
+Nein
 
-Und Identität ist notwendig für:
+Teams & Multi-Agent-Setups
 
-* Vertrauen
-* Verantwortung
-* Nachvollziehbarkeit
+Aisht669/NetClaw
 
----
+C#/.NET
 
-# 8️⃣ Mein nüchternes Fazit
+Leicht (AOT Single-File)
 
-Ja, es wird chaotisch.
-Ja, Agenten werden kurzfristig mehr Komplexität erzeugen als wir überblicken können.
-Nein, das wird nicht dauerhaft unkontrollierbar.
+4
 
-Was sich durchsetzen wird, sind:
+.NET-Version mit AOT-Kompilierung, Support für QQ, DingTalk und Feishu.
 
-* Memory-Architekturen
-* Provenienz-Systeme
-* Entscheidungs-Logs
-* Auditierbare Agent-Interaktionen
+Nein
 
-Nicht aus Idealismus.
-Sondern aus regulatorischer, wirtschaftlicher und sicherheitstechnischer Notwendigkeit.
+Windows- & Enterprise-Entwickler
 
----
+2. Die Nano-Welle & Spezialisten (Trend-Fokus 2026)
 
-Du denkst nicht in „Code“.
+In der jüngsten Entwicklungsphase hat sich ein deutlicher Trend zu Container-Isolation und Rust abgezeichnet. Die "Nano-Familie" reagiert auf das Bedürfnis nach Sicherheit und extremem Leichtbau.
 
-Du denkst in **Entstehung von Code über Zeit**.
+Repo / Variante
 
-Und das ist exakt der Punkt, an dem sich Softwareentwicklung gerade transformiert.
+Sprache
 
-Wenn du willst, können wir das noch weiterziehen:
-Was bedeutet das für Verantwortung, Haftung und digitale Identität in Agentennetzwerken?
+Stars (ca.)
+
+Fokus & Kern-Unterschiede
+
+Ist Fork?
+
+Besonderheit
+
+qwibitai/nanoclaw
+
+TypeScript
+
+14.2k
+
+Echte Container-Isolation (Apple/Docker). Keine Config-Dateien, Code = Konfiguration.
+
+Nein
+
+Aktuell populärste Nano-Variante
+
+microclaw/microclaw
+
+Rust
+
+382
+
+Rust-Agent, MCP-Tool-Server (Playwright, Windows-Auto), sqlite-vec Memory.
+
+Nein (insp.)
+
+Power-User (Performance + Features)
+
+warengonzaga/tinyclaw
+
+TS (Bun)
+
+95
+
+Autonome Persönlichkeit, 3-Layer-Memory mit Decay, 8-Dimension-Query-Routing.
+
+Nein
+
+Fokus auf Charakter & Self-Improvement
+
+zackerydev/theclawmachine
+
+Go
+
+6
+
+Kubernetes-Orchestrierung, Helm-Charts, S3-Backups, Live-Telemetry.
+
+Nein
+
+Enterprise- & K8s-Selfhoster
+
+gyc567/nuclaw
+
+Rust
+
+5
+
+Rust-Port von NanoClaw. Container-Isolation, WhatsApp (MCP) + Telegram-Support.
+
+Nein (Port)
+
+Rust-Fans, die das Nano-Konzept wollen
+
+DomiYoung/domiclaw
+
+Go
+
+2
+
+Ultra-light Raspberry-Pi-Agent (~10 MB RAM), Context-Recovery nach Überlauf.
+
+Nein
+
+Spezialisiert auf Pi- & Edge-Nutzung
+
+sstuqtd/nanoclaw-kimi
+
+TypeScript
+
+0
+
+NanoClaw-Variante mit spezifischem Fokus auf Kimi-Modelle.
+
+Ja (Nano)
+
+Kimi-Nutzer
+
+3. Die drei Säulen der Entwicklung
+
+Das Ökosystem im Februar 2026 lässt sich in drei technologische Strömungen unterteilen:
+
+I. Sicherheit & Isolation (Der "Nano"-Standard)
+
+Angeführt von NanoClaw (14.2k Stars) hat sich ein Standard etabliert, der weg von der einfachen Node-Sandbox hin zu echter OS-Level-Isolation (Docker/Apple Containers) führt. Projekte wie NuClaw und MicroClaw bringen diese Sicherheit in die Rust-Welt, was sie für sicherheitskritische Desktop-Automatisierung prädestiniert.
+
+II. Extreme Performance & Hardware-Nähe
+
+PicoClaw (19.6k Stars) und MimiClaw (3.1k Stars) beweisen, dass KI-Assistenten heute keine High-End-Server mehr benötigen. MimiClaw läuft auf einem 5-Dollar-Chip ohne Betriebssystem, was eine physische Barriere für Hacker darstellt und maximale Privatsphäre garantiert.
+
+III. Professionelle Orchestrierung
+
+Mit SwarmClaw und TheClawMachine wandelt sich der Fokus vom Einzel-Assistenten zum Agenten-Schwarm. Diese Tools ermöglichen es, spezialisierte Instanzen (z.B. einen SciClaw für die Forschung und einen MicroClaw für die Hausautomatisierung) zentral zu steuern und zu überwachen.
+
+4. Technologische Trends & Gemeinsamkeiten
+
+Trotz der Vielfalt gibt es eine "Claw-DNA", die fast alle Projekte teilen:
+
+Model Context Protocol (MCP): Die Unterstützung für MCP-Server wird zum Standard, um KIs Zugriff auf lokale Tools zu geben.
+
+Kompatible Strukturen: Dateien wie SOUL.md, IDENTITY.md und der MEMORY/-Ordner sind meist austauschbar, was Migrationen (z.B. von PicoClaw zu NanoClaw) erleichtert.
+
+AI-Native Code: Ein Großteil der neuen Varianten wurde von KIs selbst generiert oder optimiert, was die extrem kurzen Entwicklungszyklen erklärt.
+
+Fazit: Welchen Claw wählen?
+
+Der Alleskönner: openclaw/openclaw für Nutzer mit Hardware (Mac Mini/PC) und Wunsch nach maximalem Komfort.
+
+Der Sicherheits-Bewusste: qwibitai/nanoclaw für Nutzer, die Wert auf strikte Container-Trennung legen.
+
+Der Hardware-Hacker: sipeed/picoclaw für RISC-V und Low-Power-Bastler.
+
+Der Professional: microclaw/microclaw (Rust) oder theclawmachine (K8s) für anspruchsvolle Umgebungen.
+
+Dokumentation erstellt im Rahmen der OpenClaw Community-Übersicht, Februar 2026.

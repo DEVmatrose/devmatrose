@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'openclaw-universum-2026',
+    title: 'Das OpenClaw-Universum 2026: Original, Forks und Spezial-Varianten',
+    excerpt: 'Die definitive Übersicht zum OpenClaw-Ökosystem: Vom TypeScript-Mutterschiff über Rust-Spezialisten bis zum 5-Dollar-Chip ohne Betriebssystem.',
+    metaDescription: 'Die definitive Übersicht zum OpenClaw-Ökosystem im Februar 2026: Vom TypeScript-Mutterschiff über Rust-Spezialisten bis zum 5-Dollar-Chip ohne Betriebssystem.',
+    image: '/images/blog/openclaw_univer.png',
+    author: 'Ogerly \u2013 DEVmatrose',
+    date: '2026-02-25',
+    tags: ['OpenClaw', 'KI-Assistenten', 'Open Source', 'Rust', 'Embedded AI', 'MCP'],
+    component: '25-02-26-OpenClaw-Universum-2026'
+  },
+  {
     slug: 'epistemische-krise-der-softwareentwicklung',
     title: 'Die epistemische Krise der Softwareentwicklung',
     excerpt: 'Chaos, History und die Zukunft autonomer Agenten: Warum Provenienz wichtiger wird als Code.',
@@ -182,6 +193,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '25-02-26-OpenClaw-Universum-2026': defineAsyncComponent(() => 
+    import('./blog/article/25-02-26-OpenClaw-Universum-2026.vue')
+  ),
   '24-02-26-Epistemische-Krise-Der-Softwareentwicklung': defineAsyncComponent(() => 
     import('./blog/article/24-02-26-Epistemische-Krise-Der-Softwareentwicklung.vue')
   ),

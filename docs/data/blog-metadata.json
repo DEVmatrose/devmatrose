@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "openclaw-universum-2026",
+      "title": "Das OpenClaw-Universum 2026: Original, Forks und Spezial-Varianten",
+      "slug": "openclaw-universum-2026",
+      "date": "2026-02-25",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "Die definitive \u00dcbersicht zum OpenClaw-\u00d6kosystem: Vom TypeScript-Mutterschiff \u00fcber Rust-Spezialisten bis zum 5-Dollar-Chip ohne Betriebssystem.",
+      "category": "KI-\u00d6kosystem & Open Source",
+      "tags": ["OpenClaw", "KI-Assistenten", "Open Source", "Rust", "Embedded AI", "MCP"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/openclaw_univer.png",
+      "imageAlt": "Das OpenClaw-Universum 2026 \u2013 The Lobster Way",
+      "metaDescription": "Die definitive \u00dcbersicht zum OpenClaw-\u00d6kosystem im Februar 2026: Vom TypeScript-Mutterschiff \u00fcber Rust-Spezialisten bis zum 5-Dollar-Chip ohne Betriebssystem.",
+      "component": "25-02-26-OpenClaw-Universum-2026",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Das OpenClaw-Universum 2026 \u2013 Original, Forks und Spezial-Varianten",
+          "hashtags": ["OpenClaw", "AI", "OpenSource", "Rust", "EmbeddedAI"]
+        },
+        "twitter": {
+          "title": "\ud83e\udd9e Das OpenClaw-Universum 2026",
+          "hashtags": ["OpenClaw", "AI", "OpenSource", "Rust", "MCP"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Das OpenClaw-Universum 2026 \ud83e\udd9e",
+          "hashtags": ["openclaw", "ai", "opensource", "rust", "developer"]
+        }
+      }
+    },
+    {
       "id": "epistemische-krise-der-softwareentwicklung",
       "title": "Die epistemische Krise der Softwareentwicklung",
       "slug": "epistemische-krise-der-softwareentwicklung",

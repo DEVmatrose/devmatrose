@@ -29,6 +29,7 @@ const router = useRouter()
 const route = useRoute()
 
 // Import article components
+import OpenClawUniversum2026 from './blog/article/25-02-26-OpenClaw-Universum-2026.vue'
 import EpistemischeKriseDerSoftwareentwicklung from './blog/article/24-02-26-Epistemische-Krise-Der-Softwareentwicklung.vue'
 import AutonomousAgentManifestSpecification from './blog/article/19-02-26-Autonomous-Agent-Manifest-Specification.vue'
 import VomCodeZumArchitekten from './blog/article/02-12-25-Vom-Code-zum-Architekten.vue'
@@ -47,6 +48,7 @@ const selectedPost = ref(null)
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
+  '25-02-26-OpenClaw-Universum-2026': OpenClawUniversum2026,
   '24-02-26-Epistemische-Krise-Der-Softwareentwicklung': EpistemischeKriseDerSoftwareentwicklung,
   '19-02-26-Autonomous-Agent-Manifest-Specification': AutonomousAgentManifestSpecification,
   '17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation': VonCodeZuKontextAgentenNavigation,
