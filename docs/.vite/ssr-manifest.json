@@ -28,152 +28,160 @@
   "src/App.vue": [],
   "src/App.vue?vue&type=style&index=0&scoped=cb3d091c&lang.css": [],
   "src/components/BlogArticle.vue": [
-    "/devmatrose/assets/BlogArticle-VIstRz4X.js"
+    "/devmatrose/assets/BlogArticle-C7cBh-aE.js"
   ],
   "src/components/BlogTab.vue": [
-    "/devmatrose/assets/BlogTab-BlRHtDRl.js"
+    "/devmatrose/assets/BlogTab-zKUZ4Puu.js"
   ],
   "src/components/ContactTab.vue": [
-    "/devmatrose/assets/ContactTab-C_zX76yU.js"
+    "/devmatrose/assets/ContactTab-BpkOu3qk.js"
   ],
   "src/components/HomeTab.vue": [
-    "/devmatrose/assets/HomeTab-DZHzUw3r.js",
+    "/devmatrose/assets/HomeTab-A8XribVI.js",
     "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
   "src/components/HomeTab.vue?vue&type=style&index=0&scoped=e76631c6&lang.css": [
-    "/devmatrose/assets/HomeTab-DZHzUw3r.js",
+    "/devmatrose/assets/HomeTab-A8XribVI.js",
     "/devmatrose/assets/HomeTab-DOkY31Mp.css"
   ],
   "src/components/ReferencesTab.vue": [
-    "/devmatrose/assets/ReferencesTab-1IUFJQF9.js"
+    "/devmatrose/assets/ReferencesTab-mcC7yyzp.js"
   ],
   "src/components/SpiderwebCanvas.vue": [],
   "src/components/SpiderwebCanvas.vue?vue&type=style&index=0&scoped=a1793770&lang.css": [],
   "src/components/WorkTab.vue": [
-    "/devmatrose/assets/WorkTab-BYbKUXb4.js"
+    "/devmatrose/assets/WorkTab-DP1sOkx4.js"
   ],
   "src/components/blog/BlogCard.vue": [
-    "/devmatrose/assets/BlogList-CKUVeNfe.js",
+    "/devmatrose/assets/BlogList-Dm0MTzIf.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogCard.vue?vue&type=style&index=0&scoped=9a94abcb&lang.css": [
-    "/devmatrose/assets/BlogList-CKUVeNfe.js",
+    "/devmatrose/assets/BlogList-Dm0MTzIf.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogList.vue": [
-    "/devmatrose/assets/BlogList-CKUVeNfe.js",
+    "/devmatrose/assets/BlogList-Dm0MTzIf.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/BlogList.vue?vue&type=style&index=0&scoped=973e8405&lang.css": [
-    "/devmatrose/assets/BlogList-CKUVeNfe.js",
+    "/devmatrose/assets/BlogList-Dm0MTzIf.js",
     "/devmatrose/assets/BlogList-BzbbW7Cl.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-DOCElv7_.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BDCQ2l2h.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/02-12-25-Vom-Code-zum-Architekten.vue?vue&type=style&index=0&scoped=6cf612f9&lang.css": [
-    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-DOCElv7_.js",
+    "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-BDCQ2l2h.js",
     "/devmatrose/assets/02-12-25-Vom-Code-zum-Architekten-COR0JR8v.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-D80ceYGE.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-BxQMXgpo.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/03-12-25-Smart-Editor-LLM-Tool.vue?vue&type=style&index=0&scoped=360d27e1&lang.css": [
-    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-D80ceYGE.js",
+    "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-BxQMXgpo.js",
     "/devmatrose/assets/03-12-25-Smart-Editor-LLM-Tool-CIlHURVz.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C2rBGUVl.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C_rSoGrb.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-DIXzT5G2.css"
   ],
   "src/components/blog/article/05-02-26-Keine-Angst-Vor-KI.vue?vue&type=style&index=0&scoped=ca1b4975&lang.css": [
-    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C2rBGUVl.js",
+    "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-C_rSoGrb.js",
     "/devmatrose/assets/05-02-26-Keine-Angst-Vor-KI-DIXzT5G2.css"
   ],
   "src/components/blog/article/08-02-26-Schwarm-vs-Grossrechner.vue": [
-    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-DFpnECgw.js",
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-qqqzhy3S.js",
     "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-C1ympo1e.css"
   ],
   "src/components/blog/article/08-02-26-Schwarm-vs-Grossrechner.vue?vue&type=style&index=0&scoped=d55f3d17&lang.css": [
-    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-DFpnECgw.js",
+    "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-qqqzhy3S.js",
     "/devmatrose/assets/08-02-26-Schwarm-vs-Grossrechner-C1ympo1e.css"
   ],
   "src/components/blog/article/09-02-26-Biometrie-Sicherheit-TR-03166-A.vue": [
-    "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-BjFyELd5.js",
+    "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-DQpUulAP.js",
     "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-CdBfrMY9.css"
   ],
   "src/components/blog/article/09-02-26-Biometrie-Sicherheit-TR-03166-A.vue?vue&type=style&index=0&scoped=87f4dcf0&lang.css": [
-    "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-BjFyELd5.js",
+    "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-DQpUulAP.js",
     "/devmatrose/assets/09-02-26-Biometrie-Sicherheit-TR-03166-A-CdBfrMY9.css"
   ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-ChwDAJG3.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-CmPg_WXq.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/components/blog/article/10-01-26-Pen-And-Paper-Rollenspiele.vue?vue&type=style&index=0&scoped=3fbb1637&lang.css": [
-    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-ChwDAJG3.js",
+    "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-CmPg_WXq.js",
     "/devmatrose/assets/10-01-26-Pen-And-Paper-Rollenspiele-nUfDbYbQ.css"
   ],
   "src/components/blog/article/11-02-26-Ordo-Ab-Chao-Agenten-Mesh.vue": [
-    "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-BPsf4X_A.js",
+    "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-DveLWR1o.js",
     "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-D5equ48i.css"
   ],
   "src/components/blog/article/11-02-26-Ordo-Ab-Chao-Agenten-Mesh.vue?vue&type=style&index=0&scoped=d6ed1a32&lang.css": [
-    "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-BPsf4X_A.js",
+    "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-DveLWR1o.js",
     "/devmatrose/assets/11-02-26-Ordo-Ab-Chao-Agenten-Mesh-D5equ48i.css"
   ],
   "src/components/blog/article/13-02-26-Mesh-Netzwerk-Dezentrale-KI.vue": [
-    "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-BfBN6InI.js",
+    "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-CXBEL6uS.js",
     "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-D2gUXCzQ.css"
   ],
   "src/components/blog/article/13-02-26-Mesh-Netzwerk-Dezentrale-KI.vue?vue&type=style&index=0&scoped=be389883&lang.css": [
-    "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-BfBN6InI.js",
+    "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-CXBEL6uS.js",
     "/devmatrose/assets/13-02-26-Mesh-Netzwerk-Dezentrale-KI-D2gUXCzQ.css"
   ],
   "src/components/blog/article/14-02-26-Kontinente-Der-Intelligenz.vue": [
-    "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-Dwbxofef.js",
+    "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-DBItywaT.js",
     "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-CX4nlnTO.css"
   ],
   "src/components/blog/article/14-02-26-Kontinente-Der-Intelligenz.vue?vue&type=style&index=0&scoped=455d50dc&lang.css": [
-    "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-Dwbxofef.js",
+    "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-DBItywaT.js",
     "/devmatrose/assets/14-02-26-Kontinente-Der-Intelligenz-CX4nlnTO.css"
   ],
   "src/components/blog/article/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation.vue": [
-    "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-CUraSpqD.js",
+    "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-BIKe5xzw.js",
     "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-DlBe3Dzo.css"
   ],
   "src/components/blog/article/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation.vue?vue&type=style&index=0&scoped=63faaf60&lang.css": [
-    "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-CUraSpqD.js",
+    "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-BIKe5xzw.js",
     "/devmatrose/assets/17-02-26-Von-Code-Zu-Kontext-Agenten-Navigation-DlBe3Dzo.css"
   ],
   "src/components/blog/article/19-02-26-Autonomous-Agent-Manifest-Specification.vue": [
-    "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-C_lrGPj6.js",
+    "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-CrakZmyu.js",
     "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-C_W7g67H.css"
   ],
   "src/components/blog/article/19-02-26-Autonomous-Agent-Manifest-Specification.vue?vue&type=style&index=0&scoped=9358bc30&lang.css": [
-    "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-C_lrGPj6.js",
+    "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-CrakZmyu.js",
     "/devmatrose/assets/19-02-26-Autonomous-Agent-Manifest-Specification-C_W7g67H.css"
   ],
   "src/components/blog/article/24-02-26-Epistemische-Krise-Der-Softwareentwicklung.vue": [
-    "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-ClT_zmjo.js",
+    "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-CYWHJrP_.js",
     "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-CIc7FShm.css"
   ],
   "src/components/blog/article/24-02-26-Epistemische-Krise-Der-Softwareentwicklung.vue?vue&type=style&index=0&scoped=5f20e059&lang.css": [
-    "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-ClT_zmjo.js",
+    "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-CYWHJrP_.js",
     "/devmatrose/assets/24-02-26-Epistemische-Krise-Der-Softwareentwicklung-CIc7FShm.css"
   ],
   "src/components/blog/article/25-02-26-OpenClaw-Universum-2026.vue": [
-    "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-7WQKbF77.js",
+    "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-BKCpAYeM.js",
     "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-B3BLtmQB.css"
   ],
   "src/components/blog/article/25-02-26-OpenClaw-Universum-2026.vue?vue&type=style&index=0&scoped=3fc29c4e&lang.css": [
-    "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-7WQKbF77.js",
+    "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-BKCpAYeM.js",
     "/devmatrose/assets/25-02-26-OpenClaw-Universum-2026-B3BLtmQB.css"
   ],
+  "src/components/blog/article/27-02-26-Agentisches-Arbeiten-2026.vue": [
+    "/devmatrose/assets/27-02-26-Agentisches-Arbeiten-2026-CH881qcL.js",
+    "/devmatrose/assets/27-02-26-Agentisches-Arbeiten-2026-BMEtHrM1.css"
+  ],
+  "src/components/blog/article/27-02-26-Agentisches-Arbeiten-2026.vue?vue&type=style&index=0&scoped=f9f84b4f&lang.css": [
+    "/devmatrose/assets/27-02-26-Agentisches-Arbeiten-2026-CH881qcL.js",
+    "/devmatrose/assets/27-02-26-Agentisches-Arbeiten-2026-BMEtHrM1.css"
+  ],
   "src/composables/useSEO.js": [
-    "/devmatrose/assets/useSEO-BSAAsCX4.js"
+    "/devmatrose/assets/useSEO-DLmABLZt.js"
   ],
   "src/main.js": [],
   "src/router/routes.js": [],

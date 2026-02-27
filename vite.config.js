@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'agentisches-arbeiten-2026',
   'openclaw-universum-2026',
   'epistemische-krise-der-softwareentwicklung',
   'autonomous-agent-manifest-specification',

@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "agentisches-arbeiten-2026",
+      "title": "Agentisches Arbeiten 2026: Zwischen Plattform-Memory und souver\u00e4ner Architektur",
+      "slug": "agentisches-arbeiten-2026",
+      "date": "2026-02-27",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "Wenn gro\u00dfe Anbieter Langzeit-Memory und Workflow integrieren \u2013 braucht es dann noch eigene Standards? Eine strategische Einordnung zwischen Komfort und Souver\u00e4nit\u00e4t.",
+      "category": "KI-Architektur & Strategie",
+      "tags": ["Agentisches Arbeiten", "AAMS", "Plattform-Memory", "KI-Strategie", "Governance", "Souver\u00e4nit\u00e4t"],
+      "readTime": "14 min",
+      "featured": true,
+      "image": "/images/blog/agentisches-arbeiten.png",
+      "imageAlt": "Agentisches Arbeiten 2026 \u2013 Kompass zwischen Plattform und Souver\u00e4nit\u00e4t",
+      "metaDescription": "Wenn gro\u00dfe Anbieter Langzeit-Memory und Workflow integrieren \u2013 braucht es dann noch eigene Standards? Eine strategische Einordnung zwischen Komfort und Souver\u00e4nit\u00e4t.",
+      "component": "27-02-26-Agentisches-Arbeiten-2026",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Agentisches Arbeiten 2026 \u2013 Plattform-Memory vs. souver\u00e4ne Architektur",
+          "hashtags": ["AgentischesArbeiten", "AAMS", "KI", "Governance", "OpenSource"]
+        },
+        "twitter": {
+          "title": "\ud83e\udded Agentisches Arbeiten 2026",
+          "hashtags": ["AgentischesArbeiten", "AAMS", "AI", "Governance"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Agentisches Arbeiten 2026 \ud83e\udded",
+          "hashtags": ["agentischesarbeiten", "aams", "ki", "governance", "developer"]
+        }
+      }
+    },
+    {
       "id": "openclaw-universum-2026",
       "title": "Das OpenClaw-Universum 2026: Original, Forks und Spezial-Varianten",
       "slug": "openclaw-universum-2026",

@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'agentisches-arbeiten-2026',
+    title: 'Agentisches Arbeiten 2026: Zwischen Plattform-Memory und souveräner Architektur',
+    excerpt: 'Wenn große Anbieter Langzeit-Memory und Workflow integrieren – braucht es dann noch eigene Standards? Eine strategische Einordnung zwischen Komfort und Souveränität.',
+    metaDescription: 'Wenn große Anbieter Langzeit-Memory und Workflow integrieren – braucht es dann noch eigene Standards? Eine strategische Einordnung zwischen Komfort und Souveränität.',
+    image: '/images/blog/agentisches-arbeiten.png',
+    author: 'Ogerly \u2013 DEVmatrose',
+    date: '2026-02-27',
+    tags: ['Agentisches Arbeiten', 'AAMS', 'Plattform-Memory', 'KI-Strategie', 'Governance', 'Souveränität'],
+    component: '27-02-26-Agentisches-Arbeiten-2026'
+  },
+  {
     slug: 'openclaw-universum-2026',
     title: 'Das OpenClaw-Universum 2026: Original, Forks und Spezial-Varianten',
     excerpt: 'Die definitive Übersicht zum OpenClaw-Ökosystem: Vom TypeScript-Mutterschiff über Rust-Spezialisten bis zum 5-Dollar-Chip ohne Betriebssystem.',
@@ -193,6 +204,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '27-02-26-Agentisches-Arbeiten-2026': defineAsyncComponent(() => 
+    import('./blog/article/27-02-26-Agentisches-Arbeiten-2026.vue')
+  ),
   '25-02-26-OpenClaw-Universum-2026': defineAsyncComponent(() => 
     import('./blog/article/25-02-26-OpenClaw-Universum-2026.vue')
   ),
