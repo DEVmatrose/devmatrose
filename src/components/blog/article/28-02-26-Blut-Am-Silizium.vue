@@ -195,7 +195,7 @@
             <span class="text-off-white/30 text-2xl">→</span>
             <div class="p-4 bg-red-500/10 border border-red-500/30 rounded-lg text-center min-w-[140px]">
               <span class="text-2xl block mb-1">👤</span>
-              <span class="text-red-400 text-sm font-semibold">Arbeiter:in</span>
+              <span class="text-red-400 text-sm font-semibold">Arbeiter</span>
               <p class="text-off-white/50 text-xs mt-1 m-0">0,30 € / 4 Stunden</p>
             </div>
           </div>
