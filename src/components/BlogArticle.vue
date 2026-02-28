@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'ki-datenschutz-schwindel-2026',
+    title: 'Der große KI-Datenschutz-Schwindel 2026',
+    excerpt: '„Kein Training mit Ihren Daten“ – der dümmste Weihnachtsmann-Glaube der Dekade. Warum die Versprechen der KI-Anbieter Schlangenöl sind.',
+    metaDescription: '„Kein Training mit Ihren Daten“ – der dümmste Weihnachtsmann-Glaube der Dekade. Warum die Versprechen der KI-Anbieter Schlangenöl sind und was wirklich hilft.',
+    image: '/images/blog/datenschutz-schwindel.png',
+    author: 'Ogerly \u2013 DEVmatrose',
+    date: '2026-02-28',
+    tags: ['Datenschutz', 'DSGVO', 'KI-Sicherheit', 'Cloud', 'Polemik', 'Self-Hosting'],
+    component: '28-02-26-KI-Datenschutz-Schwindel-2026'
+  },
+  {
     slug: 'agentisches-arbeiten-2026',
     title: 'Agentisches Arbeiten 2026: Zwischen Plattform-Memory und souveräner Architektur',
     excerpt: 'Wenn große Anbieter Langzeit-Memory und Workflow integrieren – braucht es dann noch eigene Standards? Eine strategische Einordnung zwischen Komfort und Souveränität.',
@@ -204,6 +215,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '28-02-26-KI-Datenschutz-Schwindel-2026': defineAsyncComponent(() => 
+    import('./blog/article/28-02-26-KI-Datenschutz-Schwindel-2026.vue')
+  ),
   '27-02-26-Agentisches-Arbeiten-2026': defineAsyncComponent(() => 
     import('./blog/article/27-02-26-Agentisches-Arbeiten-2026.vue')
   ),

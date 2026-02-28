@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "ki-datenschutz-schwindel-2026",
+      "title": "Der gro\u00dfe KI-Datenschutz-Schwindel 2026",
+      "slug": "ki-datenschutz-schwindel-2026",
+      "date": "2026-02-28",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "\u201eKein Training mit Ihren Daten\u201c \u2013 der d\u00fcmmste Weihnachtsmann-Glaube der Dekade. Warum die Versprechen der KI-Anbieter Schlangen\u00f6l sind.",
+      "category": "Datenschutz & Polemik",
+      "tags": ["Datenschutz", "DSGVO", "KI-Sicherheit", "Cloud", "Polemik", "Self-Hosting"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/datenschutz-schwindel.png",
+      "imageAlt": "Der gro\u00dfe KI-Datenschutz-Schwindel 2026",
+      "metaDescription": "\u201eKein Training mit Ihren Daten\u201c \u2013 der d\u00fcmmste Weihnachtsmann-Glaube der Dekade. Warum die Versprechen der KI-Anbieter Schlangen\u00f6l sind und was wirklich hilft.",
+      "component": "28-02-26-KI-Datenschutz-Schwindel-2026",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Der gro\u00dfe KI-Datenschutz-Schwindel 2026",
+          "hashtags": ["Datenschutz", "DSGVO", "KI", "CloudSecurity", "SelfHosting"]
+        },
+        "twitter": {
+          "title": "\ud83d\udd25 Der gro\u00dfe KI-Datenschutz-Schwindel 2026",
+          "hashtags": ["Datenschutz", "DSGVO", "AI", "Privacy"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Der gro\u00dfe KI-Datenschutz-Schwindel 2026 \ud83d\udd25",
+          "hashtags": ["datenschutz", "dsgvo", "ki", "privacy", "selfhosting"]
+        }
+      }
+    },
+    {
       "id": "agentisches-arbeiten-2026",
       "title": "Agentisches Arbeiten 2026: Zwischen Plattform-Memory und souver\u00e4ner Architektur",
       "slug": "agentisches-arbeiten-2026",
