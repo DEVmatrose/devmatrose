@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'blut-am-silizium',
+    title: 'Blut am Silizium: Das schmutzige Geheimnis hinter deiner „sauberen" KI',
+    excerpt: 'Deine „magische" KI ist kein technologisches Wunder. Sie ist das Ergebnis digitaler Fließbandarbeit zu Hungerlöhnen im Globalen Süden.',
+    metaDescription: 'Ein ehrlicher Blick in den Maschinenraum der Macht: Wie Millionen Menschen im Globalen Süden für Hungerlöhne deine KI trainieren.',
+    image: '/images/blog/blutsilizium.png',
+    author: 'Ogerly – DEVmatrose',
+    date: '2026-02-28',
+    tags: ['KI-Ethik', 'Ausbeutung', 'Datenlabel', 'Fair Trade', 'Digitaler Kolonialismus', 'Responsible AI'],
+    component: '28-02-26-Blut-Am-Silizium'
+  },
+  {
     slug: 'ki-datenschutz-schwindel-2026',
     title: 'Der große KI-Datenschutz-Schwindel 2026',
     excerpt: '„Kein Training mit Ihren Daten“ – der dümmste Weihnachtsmann-Glaube der Dekade. Warum die Versprechen der KI-Anbieter Schlangenöl sind.',
@@ -215,6 +226,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '28-02-26-Blut-Am-Silizium': defineAsyncComponent(() => 
+    import('./blog/article/28-02-26-Blut-Am-Silizium.vue')
+  ),
   '28-02-26-KI-Datenschutz-Schwindel-2026': defineAsyncComponent(() => 
     import('./blog/article/28-02-26-KI-Datenschutz-Schwindel-2026.vue')
   ),
