@@ -29,6 +29,7 @@ const router = useRouter()
 const route = useRoute()
 
 // Import article components
+import DasAgentOS from './blog/article/01-03-26-Das-Agent-OS.vue'
 import BlutAmSilizium from './blog/article/28-02-26-Blut-Am-Silizium.vue'
 import KIDatenschutzSchwindel2026 from './blog/article/28-02-26-KI-Datenschutz-Schwindel-2026.vue'
 import AgentischesArbeiten2026 from './blog/article/27-02-26-Agentisches-Arbeiten-2026.vue'
@@ -51,6 +52,7 @@ const selectedPost = ref(null)
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
+  '01-03-26-Das-Agent-OS': DasAgentOS,
   '28-02-26-Blut-Am-Silizium': BlutAmSilizium,
   '28-02-26-KI-Datenschutz-Schwindel-2026': KIDatenschutzSchwindel2026,
   '27-02-26-Agentisches-Arbeiten-2026': AgentischesArbeiten2026,

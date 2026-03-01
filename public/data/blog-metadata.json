@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "das-agent-os",
+      "title": "Das Agent-OS \u2013 Wenn Governance selbst zum Betriebssystem wird",
+      "slug": "das-agent-os",
+      "date": "2026-03-01",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "Wir stehen vor einer Architekturverschiebung: Agent-OS als Governance-Mantel \u00fcber bestehenden Systemen. AAMS f\u00fcr Ged\u00e4chtnis, ImprintGuard f\u00fcr kontrollierte Wirkung.",
+      "category": "KI-Architektur & Governance",
+      "tags": ["Agent-OS", "Governance", "AAMS", "ImprintGuard", "Autonomie", "Dezentralisierung"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/agentic-os.png",
+      "imageAlt": "Das Agent-OS \u2013 Governance als Betriebssystem",
+      "metaDescription": "Wir stehen vor einer Architekturverschiebung: Agent-OS als Governance-Mantel \u00fcber bestehenden Systemen. AAMS f\u00fcr Ged\u00e4chtnis, ImprintGuard f\u00fcr kontrollierte Wirkung.",
+      "component": "01-03-26-Das-Agent-OS",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Das Agent-OS \u2013 Wenn Governance selbst zum Betriebssystem wird",
+          "hashtags": ["AgentOS", "Governance", "AAMS", "ImprintGuard", "KIArchitektur", "Dezentralisierung"]
+        },
+        "twitter": {
+          "title": "\ud83c\udfd7\ufe0f Das Agent-OS \u2013 Governance wird zum Betriebssystem",
+          "hashtags": ["AgentOS", "Governance", "AAMS", "AI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Das Agent-OS \u2013 Wenn Governance selbst zum Betriebssystem wird \ud83c\udfd7\ufe0f",
+          "hashtags": ["agentos", "governance", "aams", "imprintguard", "dezentralisierung"]
+        }
+      }
+    },
+    {
       "id": "blut-am-silizium",
       "title": "Blut am Silizium: Das schmutzige Geheimnis hinter deiner \u201esauberen\u201c KI",
       "slug": "blut-am-silizium",

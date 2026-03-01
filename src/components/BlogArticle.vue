@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'das-agent-os',
+    title: 'Das Agent-OS – Wenn Governance selbst zum Betriebssystem wird',
+    excerpt: 'Wir stehen vor einer Architekturverschiebung: Agent-OS als Governance-Mantel über bestehenden Systemen. AAMS für Gedächtnis, ImprintGuard für kontrollierte Wirkung.',
+    metaDescription: 'Wir stehen vor einer Architekturverschiebung: Agent-OS als Governance-Mantel über bestehenden Systemen. AAMS für Gedächtnis, ImprintGuard für kontrollierte Wirkung.',
+    image: '/images/blog/agentic-os.png',
+    author: 'Ogerly – DEVmatrose',
+    date: '2026-03-01',
+    tags: ['Agent-OS', 'Governance', 'AAMS', 'ImprintGuard', 'Autonomie', 'Dezentralisierung'],
+    component: '01-03-26-Das-Agent-OS'
+  },
+  {
     slug: 'blut-am-silizium',
     title: 'Blut am Silizium: Das schmutzige Geheimnis hinter deiner „sauberen" KI',
     excerpt: 'Deine „magische" KI ist kein technologisches Wunder. Sie ist das Ergebnis digitaler Fließbandarbeit zu Hungerlöhnen im Globalen Süden.',
@@ -226,6 +237,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '01-03-26-Das-Agent-OS': defineAsyncComponent(() => 
+    import('./blog/article/01-03-26-Das-Agent-OS.vue')
+  ),
   '28-02-26-Blut-Am-Silizium': defineAsyncComponent(() => 
     import('./blog/article/28-02-26-Blut-Am-Silizium.vue')
   ),
