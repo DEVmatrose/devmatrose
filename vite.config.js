@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'du-brauchst-kein-framework',
   'das-agent-os',
   'blut-am-silizium',
   'ki-datenschutz-schwindel-2026',

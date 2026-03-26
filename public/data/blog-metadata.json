@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "du-brauchst-kein-framework",
+      "title": "Du brauchst kein Framework. Du brauchst eine Datei.",
+      "slug": "du-brauchst-kein-framework",
+      "date": "2026-03-26",
+      "author": "Ogerly \u2013 DEVmatrose",
+      "excerpt": "Du nutzt KI und bist 10x produktiver. Cool. Aber weisst du, was Session 47 entschieden hat? Warum eine einzige Datei mehr Wert ist als jedes Framework.",
+      "category": "KI-Architektur & Praxis",
+      "tags": ["AAMS", "Kontextverlust", "Tool Lock-in", "Agent Memory", "Open Source", "Produktivit\u00e4t"],
+      "readTime": "10 min",
+      "featured": true,
+      "image": "/images/blog/aams-einedatei.png",
+      "imageAlt": "Du brauchst kein Framework. Du brauchst eine Datei \u2013 AAMS",
+      "metaDescription": "Kontextverlust bei KI-gest\u00fctzter Entwicklung ist unsichtbar \u2013 bis er zuschl\u00e4gt. AAMS l\u00f6st das Problem mit einer einzigen Datei. Kein npm install, kein Vendor Lock-in.",
+      "component": "26-03-26-Du-Brauchst-Kein-Framework",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Du brauchst kein Framework. Du brauchst eine Datei.",
+          "hashtags": ["AAMS", "Kontextverlust", "ToolLockin", "AgentMemory", "OpenSource", "KIArchitektur"]
+        },
+        "twitter": {
+          "title": "\ud83d\udcc1 Du brauchst kein Framework. Du brauchst eine Datei.",
+          "hashtags": ["AAMS", "AgentMemory", "OpenSource", "AI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Du brauchst kein Framework. Du brauchst eine Datei. \ud83d\udcc1",
+          "hashtags": ["aams", "kontextverlust", "agentmemory", "opensource", "kiarchitektur"]
+        }
+      }
+    },
+    {
       "id": "das-agent-os",
       "title": "Das Agent-OS \u2013 Wenn Governance selbst zum Betriebssystem wird",
       "slug": "das-agent-os",

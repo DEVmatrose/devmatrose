@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Du brauchst kein Framework. Du brauchst eine Datei. | DEVmatrose</title>
+    <meta name="title" content="Du brauchst kein Framework. Du brauchst eine Datei.">
+    <meta name="description" content="Kontextverlust bei KI-gestützter Entwicklung ist unsichtbar – bis er zuschlägt. AAMS löst das Problem mit einer einzigen Datei. Kein npm install, kein Vendor Lock-in.">
+    <meta name="author" content="Ogerly, DEVmatrose">
+    <meta name="keywords" content="AAMS, Kontextverlust, Tool Lock-in, Agent Memory, Open Source, Produktivität, KI-Architektur">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://devmatrose.github.io/devmatrose/blog-du-brauchst-kein-framework.html">
+    <meta property="og:title" content="Du brauchst kein Framework. Du brauchst eine Datei.">
+    <meta property="og:description" content="Kontextverlust bei KI-gestützter Entwicklung ist unsichtbar – bis er zuschlägt. AAMS löst das Problem mit einer einzigen Datei.">
+    <meta property="og:image" content="https://devmatrose.github.io/devmatrose/images/blog/aams-einedatei.png">
+    <meta property="og:image:secure_url" content="https://devmatrose.github.io/devmatrose/images/blog/aams-einedatei.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Du brauchst kein Framework. Du brauchst eine Datei – AAMS">
+    <meta property="og:site_name" content="DEVmatrose">
+    <meta property="og:locale" content="de_DE">
+    
+    <!-- Article Meta Tags -->
+    <meta property="article:published_time" content="2026-03-26T12:00:00+01:00">
+    <meta property="article:modified_time" content="2026-03-26T12:00:00+01:00">
+    <meta property="article:author" content="Ogerly – DEVmatrose">
+    <meta property="article:section" content="KI-Architektur & Praxis">
+    <meta property="article:tag" content="AAMS">
+    <meta property="article:tag" content="Kontextverlust">
+    <meta property="article:tag" content="Tool Lock-in">
+    <meta property="article:tag" content="Agent Memory">
+    <meta property="article:tag" content="Open Source">
+    <meta property="article:tag" content="Produktivität">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@ogerly">
+    <meta name="twitter:creator" content="@ogerly">
+    <meta name="twitter:title" content="📁 Du brauchst kein Framework. Du brauchst eine Datei.">
+    <meta name="twitter:description" content="Kontextverlust bei KI-Entwicklung ist unsichtbar – bis er zuschlägt. AAMS: eine Datei, null Dependencies, alle Tools.">
+    <meta name="twitter:image" content="https://devmatrose.github.io/devmatrose/images/blog/aams-einedatei.png">
+    <meta name="twitter:image:alt" content="Du brauchst kein Framework. Du brauchst eine Datei – AAMS">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" content="https://devmatrose.github.io/devmatrose/#/blog/du-brauchst-kein-framework">
+    
+    <!-- Auto-redirect to Vue App -->
+    <meta http-equiv="refresh" content="1.5;url=https://devmatrose.github.io/devmatrose/#/blog/du-brauchst-kein-framework">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/devmatrose/favicon.png">
+    
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            max-width: 800px;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff9966;
+            text-shadow: 0 0 20px rgba(255, 153, 102, 0.5);
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            color: #66d9ff;
+            margin-bottom: 30px;
+        }
+        .loading {
+            display: inline-block;
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(102, 217, 255, 0.3);
+            border-radius: 50%;
+            border-top-color: #66d9ff;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .redirect-text {
+            margin-top: 30px;
+            color: #b0b0b0;
+            font-size: 0.9rem;
+        }
+        .redirect-text a {
+            color: #66d9ff;
+            text-decoration: none;
+        }
+        .redirect-text a:hover {
+            text-decoration: underline;
+        }
+        .meta-info {
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #888;
+        }
+    </style>
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Du brauchst kein Framework. Du brauchst eine Datei.",
+        "description": "Kontextverlust bei KI-gestützter Entwicklung ist unsichtbar – bis er zuschlägt. AAMS löst das Problem mit einer einzigen Datei. Kein npm install, kein Vendor Lock-in.",
+        "image": "https://devmatrose.github.io/devmatrose/images/blog/aams-einedatei.png",
+        "author": {
+            "@type": "Person",
+            "name": "Ogerly",
+            "url": "https://github.com/DEVmatrose"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "DEVmatrose",
+            "url": "https://devmatrose.github.io/devmatrose/"
+        },
+        "datePublished": "2026-03-26",
+        "dateModified": "2026-03-26",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://devmatrose.github.io/devmatrose/#/blog/du-brauchst-kein-framework"
+        },
+        "keywords": ["AAMS", "Kontextverlust", "Tool Lock-in", "Agent Memory", "Open Source", "Produktivität"],
+        "articleSection": "KI-Architektur & Praxis",
+        "inLanguage": "de"
+    }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1>📁 Du brauchst kein Framework.</h1>
+        <p class="subtitle">Du brauchst eine Datei.</p>
+        
+        <div class="loading"></div>
+        
+        <p class="redirect-text">
+            Weiterleitung zur App...<br>
+            <a href="https://devmatrose.github.io/devmatrose/#/blog/du-brauchst-kein-framework">
+                Direkt zum Artikel →
+            </a>
+        </p>
+        
+        <div class="meta-info">
+            <p>📅 26. März 2026 · ⏱️ 10 min Lesezeit · 🏗️ KI-Architektur & Praxis</p>
+            <p>Von Ogerly – DEVmatrose</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'du-brauchst-kein-framework',
+    title: 'Du brauchst kein Framework. Du brauchst eine Datei.',
+    excerpt: 'Du nutzt KI und bist 10x produktiver. Cool. Aber weisst du, was Session 47 entschieden hat? Warum eine einzige Datei mehr Wert ist als jedes Framework.',
+    metaDescription: 'Kontextverlust bei KI-gestützter Entwicklung ist unsichtbar – bis er zuschlägt. AAMS löst das Problem mit einer einzigen Datei. Kein npm install, kein Vendor Lock-in.',
+    image: '/images/blog/aams-einedatei.png',
+    author: 'Ogerly – DEVmatrose',
+    date: '2026-03-26',
+    tags: ['AAMS', 'Kontextverlust', 'Tool Lock-in', 'Agent Memory', 'Open Source', 'Produktivität'],
+    component: '26-03-26-Du-Brauchst-Kein-Framework'
+  },
+  {
     slug: 'das-agent-os',
     title: 'Das Agent-OS – Wenn Governance selbst zum Betriebssystem wird',
     excerpt: 'Wir stehen vor einer Architekturverschiebung: Agent-OS als Governance-Mantel über bestehenden Systemen. AAMS für Gedächtnis, ImprintGuard für kontrollierte Wirkung.',
@@ -237,6 +248,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '26-03-26-Du-Brauchst-Kein-Framework': defineAsyncComponent(() => 
+    import('./blog/article/26-03-26-Du-Brauchst-Kein-Framework.vue')
+  ),
   '01-03-26-Das-Agent-OS': defineAsyncComponent(() => 
     import('./blog/article/01-03-26-Das-Agent-OS.vue')
   ),
