@@ -1,5 +1,7 @@
 # Blog-Artikel Meta-Template
 
+> **Siehe auch:** `src/components/blog/article/Neuer-Artikel.md` – die vollständige 8-Stellen-Checkliste für neue Artikel.
+
 ## Für jeden neuen Artikel:
 
 ### 1. Dateinamen festlegen
@@ -56,17 +58,19 @@ Für optimale Social-Media-Vorschauen:
 
 ### 4. Checklist für neuen Artikel
 
-- [ ] Vue-Komponente erstellt: `src/components/blog/DD-MM-YY-Artikel-Name.vue`
-- [ ] HTML-Landingpage erstellt: `blog-artikel-slug.html`
-- [ ] Hero-Bild hochgeladen: `images/blog/artikel-slug-hero.png`
-- [ ] Preview-Bild hochgeladen: `images/blog/artikel-slug-preview.png`
-- [ ] Artikel in BlogTab.vue registriert
+- [ ] Vue-Komponente erstellt: `src/components/blog/article/DD-MM-YY-Artikel-Name.vue`
+- [ ] HTML-Landingpage erstellt: `public/blog-artikel-slug.html`
+- [ ] Hero-/Vorschaubild hochgeladen: `public/images/blog/bild.png`
+- [ ] ⚠️ **Bild-URL in SEO-HTML** als absolute URL korrekt gesetzt (og:image, twitter:image, JSON-LD)
+- [ ] Artikel in `BlogTab.vue` registriert (Import + Mapping)
+- [ ] Artikel in `BlogArticle.vue` registriert (blogPosts + defineAsyncComponent)
+- [ ] Slug in `vite.config.js` → `blogSlugs`-Array eingetragen
+- [ ] Eintrag in `public/data/blog-metadata.json` (als erstes Element!)
 - [ ] Meta-Tags vollständig ausgefüllt
 - [ ] URLs korrekt (ohne Tippfehler)
 - [ ] Datum im ISO-Format
-- [ ] Lokal getestet (npm run dev)
-- [ ] Build erstellt (npm run build)
-- [ ] Zu GitHub gepusht
+- [ ] `npm run build` erfolgreich
+- [ ] ⚠️ **Social-Media-Preview prüfen** nach Push mit https://www.opengraph.xyz/
 
 ### 5. Test-URLs
 
