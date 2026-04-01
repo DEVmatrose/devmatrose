@@ -483,7 +483,7 @@
             <strong class="text-cyber-cyan">AAMS</strong> und <strong class="text-copper-orange">ImprintGuard</strong> sind Open Source.
           </p>
           <a 
-            href="https://github.com/DEVmatrose" 
+            href="https://github.com/DEVmatrose/AAMS" 
             target="_blank" 
             class="btn btn-outline border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan/20 hover:border-cyber-cyan"
           >
