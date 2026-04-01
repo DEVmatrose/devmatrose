@@ -29,6 +29,7 @@ const router = useRouter()
 const route = useRoute()
 
 // Import article components
+import AgentenArchitekturJenseitsDesKindergartens from './blog/article/01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens.vue'
 import DuBrauchstKeinFramework from './blog/article/26-03-26-Du-Brauchst-Kein-Framework.vue'
 import DasAgentOS from './blog/article/01-03-26-Das-Agent-OS.vue'
 import BlutAmSilizium from './blog/article/28-02-26-Blut-Am-Silizium.vue'
@@ -53,6 +54,7 @@ const selectedPost = ref(null)
 // Mapping von Slugs zu Komponenten (für statische HTML-Seiten)
 // den neusten Artikel zuerst, damit er bei fehlendem Slug geladen wird
 const articleComponents = {
+  '01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens': AgentenArchitekturJenseitsDesKindergartens,
   '26-03-26-Du-Brauchst-Kein-Framework': DuBrauchstKeinFramework,
   '01-03-26-Das-Agent-OS': DasAgentOS,
   '28-02-26-Blut-Am-Silizium': BlutAmSilizium,

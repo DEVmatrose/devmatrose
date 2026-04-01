@@ -1,6 +1,36 @@
 {
   "posts": [
     {
+      "id": "agenten-architektur-jenseits-des-kindergartens",
+      "title": "Agenten-Architektur jenseits des Kindergartens: Warum eine soul.md ohne Rückgrat wertlos ist",
+      "slug": "agenten-architektur-jenseits-des-kindergartens",
+      "date": "2026-04-01",
+      "author": "Ogerly – DEVmatrose",
+      "excerpt": "Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. Er hat eine Persönlichkeit, aber kein prozessuales Gedächtnis. Zeit, den Spielplatz zu verlassen.",
+      "category": "KI-Architektur & Praxis",
+      "tags": ["AAMS", "Agenten-Architektur", "soul.md", "Multi-Agent-Systeme", "Dezentralisierung", "Web of Trust"],
+      "readTime": "12 min",
+      "featured": true,
+      "image": "/images/blog/social-md-aams.png",
+      "imageAlt": "Agenten-Architektur jenseits des Kindergartens – AAMS meets soul.md",
+      "metaDescription": "Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. AAMS liefert die Disziplin, die neuen MD-Files die Kreativität. So baut man echte Agenten-Systeme.",
+      "component": "01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens",
+      "socialMedia": {
+        "linkedin": {
+          "title": "Agenten-Architektur jenseits des Kindergartens: Warum eine soul.md ohne Rückgrat wertlos ist",
+          "hashtags": ["AAMS", "AgentenArchitektur", "SoulMD", "MultiAgentSysteme", "WebOfTrust", "KIArchitektur"]
+        },
+        "twitter": {
+          "title": "⚓ Agenten-Architektur jenseits des Kindergartens",
+          "hashtags": ["AAMS", "AgentenArchitektur", "WebOfTrust", "AI"]
+        },
+        "instagram": {
+          "caption": "Neuer Blog: Agenten-Architektur jenseits des Kindergartens ⚓",
+          "hashtags": ["aams", "agentenarchitektur", "soulmd", "multiagent", "weboftrust", "kiarchitektur"]
+        }
+      }
+    },
+    {
       "id": "du-brauchst-kein-framework",
       "title": "Du brauchst kein Framework. Du brauchst eine Datei.",
       "slug": "du-brauchst-kein-framework",

@@ -37,6 +37,17 @@ import { useSEO } from '../composables/useSEO'
 // Diese werden beim Build inline gerendert
 const blogPosts = [
   {
+    slug: 'agenten-architektur-jenseits-des-kindergartens',
+    title: 'Agenten-Architektur jenseits des Kindergartens: Warum eine soul.md ohne Rückgrat wertlos ist',
+    excerpt: 'Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. Er hat eine Persönlichkeit, aber kein prozessuales Gedächtnis. Zeit, den Spielplatz zu verlassen.',
+    metaDescription: 'Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. AAMS liefert die Disziplin, die neuen MD-Files die Kreativität. So baut man echte Agenten-Systeme.',
+    image: '/images/blog/social-md-aams.png',
+    author: 'Ogerly – DEVmatrose',
+    date: '2026-04-01',
+    tags: ['AAMS', 'Agenten-Architektur', 'soul.md', 'Multi-Agent-Systeme', 'Dezentralisierung', 'Web of Trust'],
+    component: '01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens'
+  },
+  {
     slug: 'du-brauchst-kein-framework',
     title: 'Du brauchst kein Framework. Du brauchst eine Datei.',
     excerpt: 'Du nutzt KI und bist 10x produktiver. Cool. Aber weisst du, was Session 47 entschieden hat? Warum eine einzige Datei mehr Wert ist als jedes Framework.',
@@ -248,6 +259,9 @@ const loading = ref(true)
 
 // Artikel-Komponenten Mapping
 const articleComponents = {
+  '01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens': defineAsyncComponent(() => 
+    import('./blog/article/01-04-26-Agenten-Architektur-Jenseits-Des-Kindergartens.vue')
+  ),
   '26-03-26-Du-Brauchst-Kein-Framework': defineAsyncComponent(() => 
     import('./blog/article/26-03-26-Du-Brauchst-Kein-Framework.vue')
   ),

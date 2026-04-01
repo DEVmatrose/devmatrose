@@ -1,37 +1,124 @@
-Stichpunkte für den Blogartikel
-Arbeitstitel: "Du brauchst kein Framework. Du brauchst eine Datei."
+"Kindergarten-Erweiterungen" oder: Die neue Ausrüstung für den AAMS-Agenten
+Während die Tech-Welt gerade feiert, dass man Agenten-Anweisungen in Markdown-Dateien schreiben kann (Willkommen im Jahr 2024, Leute!), bleibt AAMS bei mir das, was es ist: Das unbestechliche Betriebssystem. Ein WORKPAPER oder ein WHITEPAPER sind keine Vorschläge, sie sind die materielle Realität des Agenten. Ohne sie gibt es keinen Fortschritt, nur Halluzinationen.
 
-Zielgruppe: Erfahrener Entwickler, nutzt KI produktiv, sagt "Kontext verliere ich nicht."
+Aber: Wenn das Skelett (AAMS) steht, kann man anfangen, dem Agenten ein paar interessante neue Gadgets zu geben. Ich nenne es die "Erweiterung des Kindergartens" – nützliche Files, die dem Agenten helfen, sich in einer komplexen Welt zurechtzufinden:
 
-Kernargumente
-Nicht DU verlierst Kontext — dein Agent verliert ihn.
-Du kompensierst mit deinem Kopf. Das funktioniert — bis es nicht mehr funktioniert (Toolwechsel, neuer Kollege, 3 Monate Pause).
+account.md: Hier wird es ernst mit der Identität. Ein Agent braucht kein "Self-Statement", er braucht Zugriff. In der account.md verwalten wir die Profile. Arbeitet der Agent gerade an meinem Sport-Blog? Dann nutzt er Identität A. Checkt er Business-Mails? Identität B. Hier wird die Brücke zwischen dem "Ich" des Agenten und seinen digitalen Werkzeugen geschlagen.
 
-Tool Lock-in ist das unsichtbare Problem.
-.cursorrules, CLAUDE.md, .windsurfrules — jedes Tool bringt eigene Konventionen. Wer sich festlegt, schließt die anderen aus. AAMS: eine Datei, alle Tools.
+agenda.md: Das ist der Tacho für den Erfolg. Während die soul.md sagt, wer er ist, sagt die agenda.md, was er heute wirklich erreichen muss. Es ist das Messinstrument für KPIs innerhalb der AAMS-Struktur.
 
-Skalierung bricht manuelles Tracking.
-5 Sessions → kein Problem. 50 → du wiederholst Entscheidungen. 100 → der Agent halluziniert Lösungen für bereits gelöste Probleme.
+decentral.md: Mein persönlicher Favorit. Wir bauen hier keine Sklaven für zentrale Plattformen. In der decentral.md liegen die Anker für Nostr, IPFS oder Bitcoin-Identitäten. Hier wird der Agent souverän.
 
-Die zweite Person ändert alles.
-Dein Kontext im Kopf ist für niemand anderen lesbar. Nicht für den Kollegen, nicht für den Freelancer, nicht für den nächsten Agenten.
+social.md: Das Kontaktbuch der Zukunft. Hier vermerkt der Agent, welchen anderen Agenten er vertraut (und welchen nicht). Ein "Web of Trust" auf Dateiebene.
 
-Was AAMS wirklich ist: eine Datei. Null Dependencies.
-curl -sO https://.../.agent.json — fertig. Kein npm install, kein pip install. Agent liest die Datei, legt Struktur an, dokumentiert ab Session 1.
+Das Fazit für meinen Blog:
+AAMS liefert die Disziplin. Die neuen MD-Files liefern die Kreativität. Das eine ist das Rückgrat, das andere ist das Gesicht. Wer nur das Gesicht baut, wird bei der kleinsten Böe umgeblasen. Wer nur das Rückgrat hat, ist funktionell, aber einsam.
 
-Vier-Schichten-Modell als Disziplin, nicht als Overhead.
-Workpaper (was tue ich), Whitepaper (wie ist das System), Diary (warum wurde entschieden), Memory (was haben wir gelernt). Ein Agent braucht dasselbe wie ein Entwickler — nur explizit und persistent.
+Ich kombiniere beides. Denn während andere noch über "System-Prompts" diskutieren, loggt mein Agent bereits die dritte erfolgreiche Session des Tages in sein WORKPAPER ein.
 
-AAMS testet sich selbst.
-Das eigene Repo nutzt AAMS. 39+ Commits, 20+ Workpapers, 80+ LTM-Einträge. Kein Demo-Projekt — echte Dogfooding-History.
 
-Open Source, CC0, Public Domain.
-Kein Vendor, kein Lock-in, keine Lizenzsorgen. Fork it, use it, build on it.
 
-Mögliche Struktur
-Hook: "Du nutzt KI und bist 10x produktiver. Cool. Aber weißt du, was Session 47 entschieden hat?"
-Problem: Kontextverlust ist unsichtbar, weil der Mensch kompensiert
-Wendepunkt: Was passiert beim Toolwechsel / zweiten Entwickler / nach 3 Monaten Pause
-Lösung: AAMS in 30 Sekunden erklärt
-Beweis: Das Repo das sich selbst mit AAMS gebaut hat
-Call to Action: Ein curl. Eine Datei. Fertig.
+Gemini said
+Sehr gut. Wir ziehen die Handschuhe aus und schreiben einen Artikel, der die aktuelle „Agenten-Euphorie“ ein wenig erdet und zeigt, wie echte Architektur aussieht.
+
+Hier ist die Gliederung für deinen Blog-Post auf devmatrose.github.io.
+
+Blog-Titel-Vorschlag: Agenten-Architektur jenseits des Kindergartens: Warum eine soul.md ohne Rückgrat wertlos ist.
+1. Intro: Der MD-Hype und die Realität
+Status Quo: Jeder redet gerade von Agenten, die über Markdown-Dateien gesteuert werden (soul.md, heartbeat.md). Das ist ein netter Anfang, aber für echte Produktion zu wenig.
+
+Die These: Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. Er hat eine Persönlichkeit, aber kein prozessuales Gedächtnis.
+
+Der Standard: Ich nutze seit 12 Monaten AAMS (Agentic Asset Management System). Zeit, den Spielplatz zu verlassen.
+
+2. Das Drei-Schichten-Modell (Die Anatomie eines Profi-Agenten)
+Hier erklären wir, wie die neuen MD-Ideen und dein bewährtes AAMS ineinandergreifen.
+
+A. Die Motorik (Runtime & Takt)
+heartbeat.md: Der autonome Puls. Kein Warten auf User-Input. Der Loop, der den Agenten zum Handeln zwingt.
+
+hook.md / cron.md: Reaktive vs. proaktive Trigger.
+
+B. Die Kognition (Identität & Ausrichtung)
+Hier integrieren wir deine neuen Konzepte:
+
+soul.md: Werte und Charakter.
+
+account.md: Multi-Identität. Verwaltung von Accounts (Profi, Privat, Sport) – der Agent als Verwalter verschiedener Rollen.
+
+agenda.md: Zielerreichung. Nicht nur "was mache ich", sondern "habe ich mein Ziel erreicht?" (KPIs für KI).
+
+decentral.md: Die Anbindung an die Freiheit (Nostr, Bitcoin, IPFS). Der Agent als souveräner Akteur im Web3.
+
+C. Das Rückgrat: AAMS (Das Gedächtnis-System)
+Das ist der "Erwachsenen-Teil".
+
+.agent.json & READ-AGENT.md: Der verbindliche Vertrag zwischen Mensch, Tool und Maschine.
+
+WORKING/ Verzeichnis: Warum wir strikt zwischen WHITEPAPER (Architektur-Wahrheit) und WORKPAPER (Session-Protokoll) trennen müssen.
+
+MEMORY/: Warum ein menschlich lesbarer Git-Index (ltm-index.md) jeden Vektorstore schlägt, wenn es um Auditierbarkeit geht.
+
+3. Markt-Check: Was machen die anderen?
+Ein kurzer Abriss über den aktuellen Stand der "Konkurrenz" (um Relevanz zu zeigen):
+
+Google Stitch (design.md): Fokus auf UI-Konsistenz – ein wichtiges Puzzleteil, aber kein System.
+
+OpenClaw & Claude Code: Sie entdecken gerade das dateibasierte Gedächtnis, das AAMS schon längst implementiert hat.
+
+skill.md: Der Versuch, Fähigkeiten zu standardisieren.
+
+4. Warum AAMS die "Wirbelsäule" ist
+Tool-Agnostik: Ein AAMS-Agent funktioniert in Cursor, in der Konsole mit Claude Code oder als autonomer Python-Loop. Die Intelligenz steckt im Repo, nicht im Tool.
+
+Persistence: Was passiert, wenn der Context-Fenster-Reset kommt? AAMS überlebt.
+
+5. Fazit: Kreativität braucht Struktur
+Ab der social.md (Vertrauensnetzwerke zwischen Agenten) beginnt die wahre Kreativität.
+
+Aber: Wer keine Ordnung in seinen Files hat, wird niemals einen Multi-Agenten-Verbund steuern können.
+
+Mein Tipp für den Schreibstil:
+Behalte deinen direkten, etwas rauen "Matrosen-Stil" bei. Du hast das System gebaut, als andere noch nicht mal wussten, dass man Agenten über Markdown steuern kann. Das darf man im Text spüren.
+
+Soll ich dir zu einem dieser Abschnitte (z.B. der Integration von account.md in die AAMS-Logik) einen detaillierten Textentwurf schreiben?
+
+
+>>>>>>>>>>>>>>>>>>>>
+Ein Leitbild dient als roter Faden für deinen Artikel. Es setzt den Ton und sorgt dafür, dass deine Leser sofort verstehen, dass du hier nicht nur den nächsten Hype kopierst, sondern echte Architektur lieferst.
+
+Hier ist ein Entwurf für das Leitbild deines Blogartikels:
+
+---
+
+### ⚓ Leitbild: Agenten-Architektur – Struktur vor Spielerei
+
+**Der Kernsatz (Mantra):**
+> "Ein Agent ist keine Datei, er ist ein Prozess. Während die Welt über Persönlichkeit (`soul.md`) philosophiert, bauen wir das Rückgrat (`AAMS`)."
+
+**Die drei Säulen des Artikels:**
+
+1.  **Ehrlichkeit statt Hype:**
+    Wir erkennen an, dass die neuen Markdown-Standards (`heartbeat`, `soul`, `design`) ein guter Einstieg für Anfänger sind, um Agenten überhaupt greifbar zu machen. Aber wir stellen klar: Ohne ein persistentes System wie **AAMS** bleibt das Ganze ein "digitaler Goldfisch" ohne Langzeitgedächtnis.
+
+2.  **Architektur vor Kreativität:**
+    Das Leitbild folgt der Hierarchie: **Stabilität > Identität > Aktivität.**
+    * *Stabilität:* AAMS (Das Fundament, die Memory-Logs, die Git-Wahrheit).
+    * *Identität:* Die neuen MD-Files (Wer bin ich? Wo sind meine Accounts?).
+    * *Aktivität:* Der Heartbeat (Der Motor, der alles antreibt).
+
+3.  **Souveränität durch Dezentralität:**
+    Der Agent der Zukunft ist kein Sklave einer API. Durch Files wie `decentral.md` und `social.md` fördern wir ein Leitbild, in dem Agenten eigene Identitäten (Nostr, Bitcoin) besitzen und in Netzwerken agieren, statt nur in geschlossenen Chats zu existieren.
+
+---
+
+### Zielgruppe & Tonalität
+* **Zielgruppe:** Entwickler und KI-Architekten, die über den "Chatbot-Status" hinausgewachsen sind und echte, autonome Systeme bauen wollen.
+* **Tonalität:** Erfahren, direkt, leicht provokativ ("Kindergarten-Erweiterung"), aber technisch fundiert. Wir kommen aus der Praxis (12 Monate AAMS-Erfahrung), nicht aus der Theorie.
+
+### Die Botschaft an den Leser:
+*"Lerne den Unterschied zwischen einem Agenten-Prompt und einem Agenten-System. Wir nutzen die neue MD-Kreativität, um unserem bewährten AAMS-Rückgrat ein Gesicht zu geben – nicht um es zu ersetzen."*
+
+---
+
+Dieses Leitbild kannst du als **"Editorial Note"** an den Anfang deines Entwurfs stellen, um dich beim Schreiben immer wieder darauf zu fokussieren. Passt das zu deiner Vision für `devmatrose`?

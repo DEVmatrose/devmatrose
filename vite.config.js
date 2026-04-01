@@ -4,6 +4,7 @@ import { resolve } from 'path'
 
 // Blog-Slugs für Pre-Rendering
 const blogSlugs = [
+  'agenten-architektur-jenseits-des-kindergartens',
   'du-brauchst-kein-framework',
   'das-agent-os',
   'blut-am-silizium',
