@@ -41,7 +41,7 @@ const blogPosts = [
     title: 'Agenten-Architektur jenseits des Kindergartens: Warum eine soul.md ohne Rückgrat wertlos ist',
     excerpt: 'Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. Er hat eine Persönlichkeit, aber kein prozessuales Gedächtnis. Zeit, den Spielplatz zu verlassen.',
     metaDescription: 'Ein Agent, der nur aus Charakter-Instruktionen besteht, ist ein digitaler Goldfisch. AAMS liefert die Disziplin, die neuen MD-Files die Kreativität. So baut man echte Agenten-Systeme.',
-    image: '/images/blog/social-md-aams.png',
+    image: '/images/blog/social-md-aams.jpg',
     author: 'Ogerly – DEVmatrose',
     date: '2026-04-01',
     tags: ['AAMS', 'Agenten-Architektur', 'soul.md', 'Multi-Agent-Systeme', 'Dezentralisierung', 'Web of Trust'],

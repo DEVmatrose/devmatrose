@@ -470,7 +470,7 @@ const tags = ref([
 
 // Hero Image
 const basePath = import.meta.env.BASE_URL
-const heroImage = computed(() => `${basePath}images/blog/social-md-aams.png`)
+const heroImage = computed(() => `${basePath}images/blog/social-md-aams.jpg`)
 
 // State
 const linkCopied = ref(false)
@@ -480,7 +480,7 @@ onMounted(() => {
   useSEO({
     title: title,
     description: description,
-    image: '/images/blog/social-md-aams.png',
+    image: '/images/blog/social-md-aams.jpg',
     url: '/blog/agenten-architektur-jenseits-des-kindergartens',
     type: 'article',
     author: 'Ogerly – DEVmatrose',
