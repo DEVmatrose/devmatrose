@@ -410,14 +410,14 @@
 
           <div class="flex flex-col sm:flex-row gap-4 justify-center mt-6">
             <a 
-              href="https://github.com/ogerly/AAMS" 
+              href="https://github.com/DEVmatrose/AAMS" 
               target="_blank" 
               class="btn btn-outline border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan/20 hover:border-cyber-cyan"
             >
               AAMS auf GitHub →
             </a>
             <a 
-              href="https://github.com/ogerly/AAMS/blob/main/.agent.json" 
+              href="https://github.com/DEVmatrose/AAMS/blob/main/.agent.json" 
               target="_blank" 
               class="btn btn-outline border-copper-orange text-copper-orange hover:bg-copper-orange/20 hover:border-copper-orange"
             >
